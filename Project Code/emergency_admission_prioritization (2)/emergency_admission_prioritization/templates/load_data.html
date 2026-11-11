@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="glass-panel" style="max-width: 600px; margin: 50px auto; text-align: center;">
+    <h2 class="section-title">Upload Patient Data</h2>
+    <p style="margin-bottom: 20px;">Upload historical patient data (CSV files only) to train your model.</p>
+    
+    <form method="POST" enctype="multipart/form-data" style="background: rgba(255,255,255,0.5); padding: 30px; border-radius: 12px; border: 2px dashed rgba(0,0,0,0.2);">
+        <input type="file" name="file" accept=".csv" required style="margin-bottom: 20px; font-size: 1.1rem; padding: 10px;">
+        <button type="submit" class="btn-submit">Upload & Process</button>
+    </form>
+</div>
+{% endblock %}

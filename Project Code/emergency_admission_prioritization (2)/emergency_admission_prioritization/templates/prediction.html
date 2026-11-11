@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="section-title" style="color: #fff;">PREDICTION</h2>
+
+{% if result_data %}
+<div class="glass-panel" style="margin-bottom: 30px; text-align: center; background: rgba(255,255,255,0.8);">
+    <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Patient: {{ result_data.name }}</h3>
+    <h3 style="font-size: 1.8rem; margin-bottom: 10px;">Severity: 
+    <span style="color: {% if result_data.severity == 'Critical' %}red{% elif result_data.severity == 'Medium' %}orange{% else %}green{% endif %}">
+        {{ result_data.severity }}
+    </span>
+    </h3>
+    <p style="font-size: 1.2rem; font-weight: bold;">Action Priority: {{ result_data.priority }}</p>
+    <p style="font-size: 1rem; color: #555; margin-top: 10px;"><i>Algorithm Used: {{ result_data.algorithm }}</i></p>
+    
+    {% if result_data.booking %}
+    <div style="margin-top: 20px; padding: 15px; background-color: #d4edda; border: 1px solid #c3e6cb; border-radius: 8px; color: #155724; text-align: left; display: inline-block; max-width: 90%;">
+        <h4 style="margin-top: 0; margin-bottom: 10px;">🏥 Bed Allocation Confirmed</h4>
+        <p style="margin: 5px 0;"><strong>Hospital:</strong> {{ result_data.booking.hospital }}</p>
+        <p style="margin: 5px 0;"><strong>Bed Number:</strong> {{ result_data.booking.bed }}</p>
+        <p style="margin: 5px 0;"><strong>Reason:</strong> <em>{{ result_data.booking.message }}</em></p>
+    </div>
+    {% endif %}
+
+    <div style="margin-top: 30px; text-align: left; background: rgba(255,255,255,0.6); padding: 20px; border-radius: 8px; border: 1px solid #ccc;">
+        <h4 style="margin-top: 0; margin-bottom: 15px; color: #333;">Algorithm Accuracy Comparison:</h4>
+        <ul style="list-style-type: none; padding: 0; margin: 0;">
+            {% for algo in result_data.accuracies %}
+            <li style="margin-bottom: 10px;">
+                <details style="background: rgba(255,255,255,0.9); padding: 12px; border-radius: 6px; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 5px solid {% if loop.index == 1 %}#28a745{% else %}#17a2b8{% endif %};">
+                    <summary style="font-weight: bold; font-size: 1.1rem; display: flex; justify-content: space-between; align-items: center; list-style: none;">
+                        <span style="color: #000;">{{ loop.index }}. {{ algo.name }}</span>
+                        <span style="color: {% if loop.index == 1 %}#28a745{% else %}#0056b3{% endif %}; font-size: 1.2rem;">{{ algo.accuracy }}</span>
+                    </summary>
+                    <p style="margin-top: 12px; margin-bottom: 0; color: #444; font-size: 0.95rem; line-height: 1.5; border-top: 1px solid #eee; padding-top: 10px;">
+                        <strong>Insight:</strong> {{ algo.explanation }}
+                    </p>
+                </details>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
+
+<div class="glass-panel prediction-form" style="max-width: 800px; margin: 0 auto;">
+    <form method="POST" action="{{ url_for('prediction') }}">
+        <div class="form-grid">
+            <div class="form-group"><label>Patient Name</label><input type="text" name="name" placeholder="Name" required></div>
+            <div class="form-group"><label>Age</label><input type="text" name="age" placeholder="Age" required></div>
+            <div class="form-group"><label>Gender / Sex</label><input type="text" name="sex" placeholder="e.g. Male or Female" required></div>
+            <div class="form-group"><label>Injury Type</label><input type="text" name="injury" placeholder="e.g. Burn, Accident" required></div>
+            <div class="form-group"><label>Pain Scale</label><input type="text" name="pain_scale" placeholder="Pain Scale"></div>
+            
+            <div class="form-group"><label>Systolic BP (SBP)</label><input type="text" name="SBP" placeholder="e.g. 120"></div>
+            <div class="form-group"><label>Diastolic BP (DBP)</label><input type="text" name="DBP" placeholder="e.g. 80"></div>
+            <div class="form-group"><label>Heart Rate (HR)</label><input type="text" name="HR" placeholder="e.g. 80"></div>
+            <div class="form-group"><label>Resp. Rate (RR)</label><input type="text" name="RR" placeholder="e.g. 16"></div>
+            <div class="form-group"><label>Body Temp (BT)</label><input type="text" name="BT" placeholder="e.g. 37.0"></div>
+            <div class="form-group"><label>O2 Saturation (%)</label><input type="text" name="saturation" placeholder="e.g. 98"></div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <button type="submit" class="btn-submit" style="width: 300px;">Submit</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

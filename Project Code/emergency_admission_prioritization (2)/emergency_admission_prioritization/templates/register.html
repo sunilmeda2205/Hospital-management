@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div style="display: flex; justify-content: center; align-items: center; height: 70vh;">
+    <div class="glass-panel" style="width: 400px; text-align: center;">
+        <h2 class="section-title">Register</h2>
+        <form method="POST" action="{{ url_for('register_post') }}">
+            <div style="margin-bottom: 20px;">
+                <input type="text" name="username" placeholder="Choose a Username" required style="width: 100%; padding: 12px; border-radius: 8px; border: none; font-size: 1rem;">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <input type="password" name="password" placeholder="Create Password" required style="width: 100%; padding: 12px; border-radius: 8px; border: none; font-size: 1rem;">
+            </div>
+            <button type="submit" class="btn-submit">Create Account</button>
+        </form>
+        <p style="margin-top: 20px;">Already have an account? <a href="{{ url_for('login') }}" style="color: var(--navbar-bg); font-weight: bold;">Login here</a></p>
+    </div>
+</div>
+{% endblock %}

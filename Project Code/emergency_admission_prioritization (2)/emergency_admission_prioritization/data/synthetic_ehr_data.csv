@@ -1,0 +1,1001 @@
+hospital,sex,age,patient_num_hr,arrival_mode,injury,complaint,mental,pain,pain_scale,SBP,DBP,HR,RR,BT,saturation,KTAS_RN,diagnosis,result,KTAS_expert,error_code,stay_min,KTAS_duration_min,mistriage,Priority
+1,0,21,4,ambulance,0,fever,0,1,1,130,86,106,21,38.3,90,3,Alcoholic liver cirrhosis,2,3,0,314,13,0,Medium
+1,1,38,5,ambulance,0,With chest discomfort,1,0,2,142,86,111,22,38.4,90,3,Corneal abrasion,3,3,0,595,5,1,Medium
+0,0,26,13,walking,0,With chest discomfort,0,0,7,138,92,120,22,37.7,92,3,Ascites,2,3,0,205,9,0,Medium
+1,0,66,11,walking,0,right forearm burn,0,1,7,118,72,73,17,36.7,98,5,Fracture of surgical neck of humerus,1,5,0,172,4,1,Low
+1,1,72,4,ambulance,1,right ocular pain,0,0,3,150,87,113,24,37.6,93,3,"Fever, unspecified",2,3,0,147,11,1,Medium
+0,1,61,7,ambulance,1,right ocular pain,1,0,9,133,95,109,25,38.3,91,3,Ascites,2,3,0,573,15,0,Medium
+0,0,80,15,walking,1,right forearm burn,0,0,10,132,86,115,20,39.0,94,3,Ascites,3,3,0,199,5,1,Medium
+0,1,87,7,walking,1,"distension, abd",1,0,4,164,40,49,8,40.9,72,1,"Burn of hand, first degree dorsum",5,2,0,582,3,1,Critical
+1,0,78,2,car,1,"arm pain, Lt",1,1,8,111,73,63,18,37.2,95,4,Ascites,1,4,0,489,3,1,Low
+0,0,77,8,car,0,fever,0,0,4,115,83,91,19,36.7,98,4,Corneal abrasion,2,4,0,429,5,1,Low
+1,0,89,4,walking,0,right ocular pain,0,1,1,111,85,92,20,36.7,99,4,Ascites,1,4,0,99,11,0,Low
+0,0,90,10,car,1,fever,1,1,4,120,77,76,18,36.6,100,5,Angina pectoris,2,5,0,104,1,1,Low
+0,0,90,9,ambulance,1,right forearm burn,1,0,4,141,89,105,23,38.8,92,3,"Burn of hand, first degree dorsum",2,3,0,300,2,0,Medium
+1,1,37,10,ambulance,1,right forearm burn,1,1,5,131,86,120,23,38.7,90,3,"Fever, unspecified",2,3,0,298,3,1,Medium
+0,0,72,2,ambulance,0,With chest discomfort,1,0,7,134,85,109,22,38.8,90,3,"Fever, unspecified",2,3,0,135,6,1,Medium
+0,0,37,13,ambulance,1,right ocular pain,0,1,7,77,43,47,33,35.2,70,1,Fracture of surgical neck of humerus,5,2,0,101,13,1,Critical
+1,1,83,1,car,1,right forearm burn,1,0,2,129,83,82,17,36.9,99,4,Fracture of surgical neck of humerus,1,5,0,75,12,1,Low
+0,1,86,7,car,1,"distension, abd",1,0,5,126,79,86,17,36.9,97,4,"Fever, unspecified",2,4,0,418,11,0,Low
+1,0,56,5,walking,0,ascites tapping,1,1,8,144,95,106,24,38.2,91,3,Corneal abrasion,3,3,0,270,11,1,Medium
+0,0,43,1,ambulance,1,"distension, abd",0,1,7,130,76,84,19,36.9,96,4,"Burn of hand, first degree dorsum",2,4,0,210,13,1,Low
+0,1,49,3,private_ambulance,1,With chest discomfort,1,1,9,124,75,90,19,36.8,96,5,Fracture of surgical neck of humerus,1,5,0,480,2,1,Low
+1,0,60,3,ambulance,0,ascites tapping,0,0,2,123,83,81,20,37.0,95,4,Angina pectoris,2,5,0,50,14,1,Low
+1,1,63,14,private_ambulance,0,ascites tapping,0,1,7,125,70,84,17,37.2,98,4,Ascites,1,5,0,576,1,1,Low
+0,1,21,3,private_ambulance,0,right ocular pain,1,1,6,136,92,110,22,38.6,93,3,Angina pectoris,3,3,0,113,8,0,Medium
+1,0,24,11,car,0,With chest discomfort,0,0,4,130,94,104,21,37.7,90,3,Angina pectoris,3,3,0,407,3,0,Medium
+1,0,38,10,car,1,"distension, abd",1,1,4,132,94,120,21,37.7,92,3,Ascites,3,3,0,468,11,1,Medium
+0,1,61,14,private_ambulance,0,ascites tapping,1,1,3,123,75,93,16,37.1,99,5,Angina pectoris,2,5,0,304,6,0,Low
+1,1,29,4,private_ambulance,1,"arm pain, Lt",0,1,6,75,108,158,10,40.6,87,1,Alcoholic liver cirrhosis,5,2,0,47,2,1,Critical
+1,1,49,8,walking,1,fever,1,1,8,118,79,76,15,36.6,96,5,"Burn of hand, first degree dorsum",1,4,0,251,12,1,Low
+1,0,85,14,ambulance,1,right forearm burn,1,0,5,110,74,77,12,37.5,99,5,Corneal abrasion,2,4,0,42,10,1,Low
+1,0,74,1,walking,1,right ocular pain,0,1,8,112,71,69,14,37.3,97,4,Ascites,1,4,0,456,10,0,Low
+1,1,66,5,private_ambulance,1,"distension, abd",0,0,4,150,88,108,25,37.6,91,3,Corneal abrasion,2,3,0,448,8,1,Medium
+1,1,47,12,private_ambulance,0,fever,0,1,10,116,83,67,20,36.7,96,5,Corneal abrasion,1,4,0,199,13,1,Low
+1,1,90,2,private_ambulance,1,fever,1,1,9,147,92,114,20,38.4,93,3,Corneal abrasion,2,3,0,264,11,0,Medium
+0,0,52,8,private_ambulance,1,right forearm burn,1,1,2,182,50,141,35,35.0,84,1,Fracture of surgical neck of humerus,5,2,0,148,13,1,Critical
+1,1,18,1,ambulance,1,"distension, abd",1,1,1,76,114,41,30,34.8,77,1,"Fever, unspecified",4,2,0,187,8,1,Critical
+1,1,52,8,ambulance,1,"distension, abd",0,1,4,149,93,104,20,37.9,93,3,Fracture of surgical neck of humerus,2,3,0,335,14,1,Medium
+1,1,75,6,private_ambulance,1,"arm pain, Lt",0,0,10,174,110,46,9,34.8,84,1,"Fever, unspecified",4,2,0,177,7,0,Critical
+1,1,51,11,car,1,With chest discomfort,1,1,8,127,71,99,13,36.7,100,5,Alcoholic liver cirrhosis,1,4,0,130,13,0,Low
+0,0,56,6,car,1,"arm pain, Lt",1,1,3,117,83,96,14,36.7,95,5,Ascites,2,4,0,176,4,1,Low
+1,0,76,15,private_ambulance,1,fever,0,0,8,141,94,109,25,38.9,92,3,Alcoholic liver cirrhosis,2,3,0,524,2,0,Medium
+1,1,63,1,private_ambulance,1,right ocular pain,0,1,5,117,81,74,15,37.1,100,4,Fracture of surgical neck of humerus,1,4,0,481,1,1,Low
+1,1,29,12,private_ambulance,0,right forearm burn,0,1,9,146,89,105,22,38.9,93,3,Alcoholic liver cirrhosis,2,3,0,107,3,0,Medium
+1,0,68,13,private_ambulance,0,"arm pain, Lt",0,1,6,197,60,134,37,35.4,84,2,"Burn of hand, first degree dorsum",4,2,0,76,1,1,Critical
+0,0,32,15,ambulance,1,ascites tapping,1,1,10,74,119,122,35,35.4,81,2,Fracture of surgical neck of humerus,5,1,0,224,2,1,Critical
+0,0,45,13,walking,0,right forearm burn,0,0,9,116,76,74,17,37.3,99,4,"Burn of hand, first degree dorsum",1,5,0,583,5,0,Low
+0,0,21,6,ambulance,1,right ocular pain,0,1,1,114,83,93,13,37.2,98,5,Alcoholic liver cirrhosis,1,5,0,545,4,0,Low
+1,1,84,11,car,0,ascites tapping,1,1,2,145,92,102,20,38.0,91,3,Ascites,3,3,0,591,12,1,Medium
+1,1,85,9,private_ambulance,0,With chest discomfort,0,0,7,124,77,86,17,37.3,98,5,Alcoholic liver cirrhosis,2,4,0,350,11,1,Low
+1,0,37,2,car,0,ascites tapping,0,1,3,127,71,97,20,37.1,100,4,Angina pectoris,2,5,0,463,14,0,Low
+1,0,57,10,ambulance,0,fever,1,0,2,195,43,46,38,39.9,80,2,Angina pectoris,4,1,0,176,10,1,Critical
+0,0,21,7,private_ambulance,1,"arm pain, Lt",0,1,5,120,72,63,14,36.7,99,4,Alcoholic liver cirrhosis,2,4,0,464,8,1,Low
+0,1,45,7,car,1,fever,1,1,1,117,82,98,12,36.5,97,4,Fracture of surgical neck of humerus,2,4,0,365,2,0,Low
+0,0,73,7,ambulance,1,right ocular pain,1,0,7,110,84,64,17,37.1,99,5,Corneal abrasion,2,5,0,444,1,1,Low
+1,0,76,7,car,0,ascites tapping,1,0,7,119,80,74,17,37.3,95,4,Fracture of surgical neck of humerus,2,4,0,181,4,0,Low
+0,0,43,13,car,0,With chest discomfort,1,1,10,128,84,96,17,37.4,100,5,Corneal abrasion,2,4,0,510,8,1,Low
+1,0,25,5,private_ambulance,1,right ocular pain,0,1,5,132,95,102,24,38.4,93,3,Angina pectoris,3,3,0,222,6,1,Medium
+1,0,25,13,walking,0,"distension, abd",0,0,4,144,92,116,24,38.4,92,3,Alcoholic liver cirrhosis,3,3,0,376,11,0,Medium
+0,1,60,2,private_ambulance,1,"arm pain, Lt",0,1,2,148,95,104,22,38.0,93,3,Ascites,3,3,0,415,11,1,Medium
+0,1,85,9,walking,0,"arm pain, Lt",1,0,4,80,47,41,10,35.0,89,2,"Burn of hand, first degree dorsum",4,1,0,199,12,1,Critical
+0,1,64,10,walking,1,right forearm burn,0,1,8,116,81,96,19,37.0,97,5,Angina pectoris,1,5,0,234,13,0,Low
+1,1,24,9,car,0,"arm pain, Lt",0,0,5,84,53,47,28,34.8,81,1,Corneal abrasion,5,1,0,373,13,0,Critical
+1,0,54,13,private_ambulance,1,"distension, abd",0,0,1,118,76,69,20,37.4,99,5,"Burn of hand, first degree dorsum",2,4,0,338,2,0,Low
+0,0,76,14,private_ambulance,0,fever,0,0,5,123,70,99,17,36.7,98,4,Corneal abrasion,2,4,0,568,9,0,Low
+0,1,78,6,walking,0,"arm pain, Lt",0,1,4,130,73,97,17,36.6,97,5,"Fever, unspecified",2,4,0,520,11,0,Low
+1,0,26,5,ambulance,0,With chest discomfort,0,0,6,192,115,132,9,35.3,81,2,Alcoholic liver cirrhosis,5,2,0,377,3,1,Critical
+1,0,65,12,private_ambulance,0,ascites tapping,0,1,6,133,86,110,25,37.9,93,3,Fracture of surgical neck of humerus,3,3,0,487,1,1,Medium
+1,0,73,2,private_ambulance,1,"distension, abd",0,0,3,149,95,114,20,37.7,91,3,Ascites,3,3,0,63,10,0,Medium
+1,1,65,13,car,0,"distension, abd",1,1,6,150,89,107,20,37.5,91,3,Fracture of surgical neck of humerus,2,3,0,296,12,1,Medium
+1,0,54,2,ambulance,0,ascites tapping,0,1,2,120,81,64,20,37.0,97,4,Ascites,2,4,0,259,2,0,Low
+1,0,48,6,walking,1,With chest discomfort,0,0,2,139,91,115,24,38.1,93,3,"Fever, unspecified",3,3,0,105,8,1,Medium
+0,0,62,13,ambulance,1,"distension, abd",0,0,9,134,89,105,21,38.0,91,3,Fracture of surgical neck of humerus,2,3,0,231,11,1,Medium
+0,0,56,10,ambulance,0,fever,1,0,1,112,71,96,16,37.2,99,5,"Fever, unspecified",2,4,0,588,5,1,Low
+1,1,69,2,car,0,ascites tapping,1,1,8,116,80,98,14,36.8,100,5,"Burn of hand, first degree dorsum",2,5,0,409,9,0,Low
+0,1,77,8,ambulance,0,right ocular pain,0,1,7,129,83,75,14,37.3,99,5,Alcoholic liver cirrhosis,1,4,0,557,8,1,Low
+0,0,81,7,private_ambulance,0,right forearm burn,1,0,1,191,49,41,39,40.0,71,1,Corneal abrasion,5,2,0,425,9,1,Critical
+0,0,53,2,private_ambulance,1,With chest discomfort,1,1,3,136,94,116,23,38.3,90,3,Angina pectoris,3,3,0,515,9,1,Medium
+0,1,83,15,walking,0,ascites tapping,1,1,9,126,85,96,16,37.0,95,5,Alcoholic liver cirrhosis,1,5,0,345,13,0,Low
+0,0,51,10,private_ambulance,0,"distension, abd",1,0,4,131,94,103,21,37.5,92,3,"Fever, unspecified",3,3,0,238,7,1,Medium
+0,0,25,9,walking,1,"distension, abd",1,1,3,194,111,49,32,41.0,79,1,Alcoholic liver cirrhosis,5,2,0,387,9,1,Critical
+1,1,87,14,walking,0,"arm pain, Lt",0,1,2,121,84,76,19,36.7,99,5,Corneal abrasion,1,5,0,275,4,0,Low
+0,0,85,1,car,1,"arm pain, Lt",1,0,3,130,93,105,23,38.5,93,3,Fracture of surgical neck of humerus,3,3,0,322,11,0,Medium
+0,0,29,15,ambulance,1,With chest discomfort,0,0,7,171,100,49,32,40.3,74,2,Angina pectoris,4,2,0,145,6,0,Critical
+0,0,50,12,walking,1,"distension, abd",0,0,10,150,91,113,24,38.0,93,3,Alcoholic liver cirrhosis,2,3,0,361,15,0,Medium
+0,1,67,13,walking,1,"arm pain, Lt",0,1,6,117,71,67,19,36.8,98,5,Fracture of surgical neck of humerus,2,4,0,256,4,0,Low
+1,1,76,12,private_ambulance,0,With chest discomfort,0,0,9,124,81,64,13,36.6,99,4,Fracture of surgical neck of humerus,1,4,0,562,8,0,Low
+0,1,80,13,car,1,right forearm burn,1,1,10,131,93,114,25,38.7,90,3,"Fever, unspecified",2,3,0,253,10,0,Medium
+0,0,62,15,car,1,right ocular pain,1,1,3,114,83,83,18,36.9,98,5,"Fever, unspecified",1,4,0,386,2,0,Low
+0,0,68,14,car,0,"arm pain, Lt",1,1,9,82,54,44,40,34.9,77,1,Ascites,4,1,0,64,8,0,Critical
+1,1,23,4,ambulance,0,right forearm burn,1,0,10,120,80,75,16,37.4,100,4,Fracture of surgical neck of humerus,2,5,0,92,9,0,Low
+1,0,72,6,private_ambulance,1,fever,1,1,3,139,91,105,24,38.2,91,3,Corneal abrasion,3,3,0,452,7,0,Medium
+0,1,50,11,car,1,With chest discomfort,1,0,9,116,71,77,18,37.2,99,4,Angina pectoris,1,4,0,252,8,0,Low
+1,0,60,4,ambulance,0,fever,1,0,10,76,110,149,32,34.8,85,2,Fracture of surgical neck of humerus,5,1,0,453,1,0,Critical
+1,1,20,5,ambulance,0,"arm pain, Lt",0,1,10,137,92,117,25,38.9,92,3,Alcoholic liver cirrhosis,3,3,0,202,12,1,Medium
+1,0,87,15,car,0,With chest discomfort,0,0,1,123,74,100,15,36.6,96,4,Fracture of surgical neck of humerus,2,4,0,91,10,1,Low
+0,1,20,1,car,1,"distension, abd",1,0,9,143,87,103,20,38.3,91,3,Fracture of surgical neck of humerus,3,3,0,436,2,1,Medium
+0,0,76,5,car,0,right ocular pain,1,1,7,87,60,151,40,34.8,86,1,Angina pectoris,4,1,0,516,5,0,Critical
+0,0,53,15,walking,0,right forearm burn,0,1,2,79,112,46,39,34.1,80,2,"Fever, unspecified",4,2,0,309,13,1,Critical
+1,1,63,3,private_ambulance,0,With chest discomfort,1,0,2,112,78,69,18,37.2,100,4,Fracture of surgical neck of humerus,2,5,0,139,2,0,Low
+1,1,74,2,ambulance,0,right forearm burn,1,1,9,192,43,45,37,39.5,82,1,"Fever, unspecified",4,1,0,419,3,0,Critical
+1,0,52,2,ambulance,1,"arm pain, Lt",1,1,8,112,81,76,15,37.2,98,4,"Burn of hand, first degree dorsum",1,5,0,341,1,1,Low
+1,1,66,6,private_ambulance,0,"arm pain, Lt",1,0,8,120,75,85,17,36.8,100,5,Alcoholic liver cirrhosis,2,4,0,317,14,1,Low
+0,0,90,11,car,1,fever,0,1,5,112,83,91,14,37.1,96,5,Angina pectoris,2,4,0,416,2,1,Low
+1,1,79,9,car,1,fever,0,0,4,81,120,45,29,34.3,84,2,Angina pectoris,5,2,0,542,3,1,Critical
+0,1,79,7,car,0,With chest discomfort,0,1,5,80,115,126,39,34.5,70,2,"Fever, unspecified",4,1,0,279,9,0,Critical
+1,1,60,4,private_ambulance,0,right forearm burn,1,1,1,149,88,114,24,38.1,90,3,Angina pectoris,3,3,0,94,10,0,Medium
+0,1,86,6,ambulance,1,right ocular pain,1,1,9,150,90,119,23,38.4,94,3,Angina pectoris,3,3,0,498,10,0,Medium
+0,0,56,6,car,0,"arm pain, Lt",0,0,6,192,53,144,8,34.8,75,2,Angina pectoris,4,2,0,397,1,1,Critical
+1,1,67,11,private_ambulance,1,fever,1,1,3,112,70,74,16,36.5,96,5,Ascites,2,4,0,537,9,0,Low
+1,0,52,13,private_ambulance,0,ascites tapping,0,0,5,131,92,108,22,38.8,90,3,"Burn of hand, first degree dorsum",2,3,0,389,14,1,Medium
+0,0,35,13,car,1,"distension, abd",1,0,6,119,79,96,16,37.5,99,4,Corneal abrasion,2,4,0,313,14,0,Low
+0,0,34,12,walking,0,With chest discomfort,1,1,3,148,95,108,25,38.1,93,3,Ascites,3,3,0,314,12,1,Medium
+1,0,80,14,car,1,fever,1,0,9,122,76,87,15,37.0,97,5,Ascites,1,5,0,526,13,1,Low
+0,0,24,11,private_ambulance,0,right ocular pain,0,1,8,70,120,42,33,34.1,71,2,Alcoholic liver cirrhosis,4,2,0,123,12,0,Critical
+0,0,79,10,ambulance,1,right ocular pain,0,1,2,123,74,90,13,36.7,95,4,Fracture of surgical neck of humerus,2,4,0,336,3,1,Low
+0,0,35,9,car,0,ascites tapping,1,0,3,143,94,114,21,37.6,90,3,Fracture of surgical neck of humerus,3,3,0,469,6,0,Medium
+0,1,28,13,car,1,right forearm burn,0,1,5,130,71,75,19,36.9,96,5,Fracture of surgical neck of humerus,1,4,0,354,3,1,Low
+1,1,90,9,ambulance,1,With chest discomfort,0,0,10,160,46,152,39,34.6,78,1,Ascites,4,2,0,238,13,0,Critical
+0,1,68,12,private_ambulance,0,right ocular pain,0,0,7,133,92,119,24,37.6,91,3,"Fever, unspecified",2,3,0,41,3,1,Medium
+1,0,84,6,ambulance,1,fever,0,0,6,83,48,149,8,34.6,88,1,Corneal abrasion,4,1,0,42,4,0,Critical
+0,0,67,15,car,1,right forearm burn,1,0,7,120,78,64,17,36.6,100,4,Angina pectoris,1,4,0,558,1,1,Low
+1,1,77,6,car,1,right ocular pain,1,0,5,128,79,99,15,37.0,99,5,"Burn of hand, first degree dorsum",1,4,0,36,15,1,Low
+1,0,87,6,car,1,With chest discomfort,1,0,4,126,77,86,19,37.5,96,5,"Burn of hand, first degree dorsum",1,4,0,562,7,1,Low
+0,0,28,11,private_ambulance,0,"distension, abd",0,1,3,117,79,76,17,37.4,98,5,Fracture of surgical neck of humerus,2,5,0,269,2,0,Low
+0,0,31,3,private_ambulance,1,"arm pain, Lt",1,0,9,121,76,88,16,37.0,95,4,Angina pectoris,2,4,0,71,4,1,Low
+1,1,49,9,car,1,"arm pain, Lt",0,0,7,124,77,66,19,36.6,96,4,Angina pectoris,1,4,0,257,3,0,Low
+0,1,65,15,car,0,right ocular pain,0,1,3,72,41,156,34,34.0,81,1,Fracture of surgical neck of humerus,5,1,0,486,15,0,Critical
+1,1,49,7,private_ambulance,0,right ocular pain,1,1,3,123,76,93,15,37.1,99,4,Alcoholic liver cirrhosis,2,5,0,587,13,1,Low
+1,1,90,5,ambulance,0,"arm pain, Lt",0,0,5,111,85,93,17,37.3,96,4,"Fever, unspecified",1,4,0,276,5,0,Low
+1,1,46,15,ambulance,0,right forearm burn,1,1,10,130,90,118,24,37.7,91,3,Alcoholic liver cirrhosis,2,3,0,68,2,0,Medium
+0,1,46,1,walking,0,With chest discomfort,0,1,3,120,71,61,14,37.1,96,4,Fracture of surgical neck of humerus,1,5,0,435,10,0,Low
+0,0,59,12,private_ambulance,1,fever,1,0,9,129,81,74,14,36.9,100,5,"Fever, unspecified",1,4,0,31,12,1,Low
+0,0,90,10,walking,0,fever,0,1,3,80,51,125,28,40.5,78,1,Alcoholic liver cirrhosis,4,1,0,478,12,1,Critical
+1,1,70,6,private_ambulance,0,With chest discomfort,1,0,3,84,100,44,30,34.2,80,2,"Fever, unspecified",5,1,0,198,10,1,Critical
+1,0,30,4,private_ambulance,1,fever,1,1,4,113,71,85,20,37.3,96,4,Alcoholic liver cirrhosis,1,5,0,119,5,1,Low
+0,0,21,11,walking,0,ascites tapping,0,1,7,125,85,76,13,37.1,98,4,Fracture of surgical neck of humerus,2,5,0,221,8,0,Low
+1,0,77,14,walking,0,right forearm burn,0,0,6,127,83,97,15,37.1,98,5,Alcoholic liver cirrhosis,1,5,0,336,2,1,Low
+0,0,22,13,private_ambulance,0,right forearm burn,0,0,3,71,53,136,10,40.3,78,2,Corneal abrasion,5,1,0,454,3,0,Critical
+0,0,30,13,walking,1,ascites tapping,1,1,8,148,94,115,20,37.8,93,3,Alcoholic liver cirrhosis,2,3,0,369,12,0,Medium
+1,1,78,1,walking,1,"arm pain, Lt",1,1,2,117,74,79,19,37.3,97,5,"Burn of hand, first degree dorsum",1,5,0,482,4,1,Low
+1,0,84,9,ambulance,0,"arm pain, Lt",1,0,9,148,85,105,21,38.8,91,3,Alcoholic liver cirrhosis,2,3,0,81,15,1,Medium
+1,1,53,9,private_ambulance,0,fever,0,0,6,145,94,114,21,38.9,93,3,Angina pectoris,2,3,0,294,12,0,Medium
+0,0,67,14,ambulance,0,fever,0,0,5,130,83,92,12,37.4,100,4,"Fever, unspecified",1,5,0,207,10,0,Low
+1,1,57,15,private_ambulance,1,ascites tapping,1,0,8,119,82,97,13,36.5,100,5,"Fever, unspecified",2,5,0,140,8,0,Low
+1,1,53,5,walking,0,right forearm burn,0,0,10,122,80,68,12,37.2,97,5,Alcoholic liver cirrhosis,2,5,0,66,10,0,Low
+1,1,46,9,walking,0,With chest discomfort,0,1,2,125,74,76,20,37.3,96,5,Fracture of surgical neck of humerus,1,4,0,258,12,1,Low
+1,1,60,10,walking,1,With chest discomfort,0,1,1,130,72,90,15,37.0,100,5,Corneal abrasion,2,5,0,184,3,0,Low
+1,0,90,6,ambulance,0,ascites tapping,1,0,6,130,71,60,19,36.8,96,4,"Burn of hand, first degree dorsum",1,5,0,474,11,1,Low
+1,0,79,1,ambulance,1,right ocular pain,1,0,1,110,77,74,17,36.8,95,5,Corneal abrasion,1,5,0,76,5,1,Low
+1,1,84,15,ambulance,1,ascites tapping,1,0,3,122,70,74,15,37.2,96,4,Corneal abrasion,1,4,0,405,12,0,Low
+0,0,50,11,car,0,right ocular pain,0,1,8,122,73,95,16,37.0,96,4,Alcoholic liver cirrhosis,2,4,0,133,11,1,Low
+1,0,35,9,car,1,right ocular pain,0,1,4,149,88,108,24,39.0,92,3,Corneal abrasion,2,3,0,591,8,0,Medium
+1,0,79,1,car,0,right ocular pain,1,0,2,146,86,103,22,38.5,93,3,Corneal abrasion,3,3,0,132,14,0,Medium
+1,1,55,7,car,0,With chest discomfort,0,0,3,170,114,143,29,40.2,85,2,"Burn of hand, first degree dorsum",4,1,0,90,14,0,Critical
+1,0,79,10,private_ambulance,1,"distension, abd",0,0,8,125,73,86,19,36.5,97,5,"Fever, unspecified",1,4,0,376,9,0,Low
+1,1,49,11,private_ambulance,0,With chest discomfort,0,0,3,126,85,91,14,36.6,98,5,Fracture of surgical neck of humerus,2,4,0,81,9,0,Low
+1,0,66,2,private_ambulance,1,With chest discomfort,1,0,8,144,90,103,23,38.6,90,3,Corneal abrasion,3,3,0,600,9,0,Medium
+0,1,56,6,walking,0,With chest discomfort,0,1,6,199,51,41,33,34.8,71,1,Angina pectoris,4,2,0,449,2,1,Critical
+0,1,42,4,private_ambulance,0,fever,1,0,7,131,95,118,20,38.7,93,3,Corneal abrasion,3,3,0,573,12,0,Medium
+1,0,73,12,ambulance,0,right ocular pain,1,1,9,142,91,119,25,38.6,92,3,Alcoholic liver cirrhosis,3,3,0,166,3,1,Medium
+1,1,83,12,ambulance,0,right forearm burn,1,1,3,150,87,116,24,38.5,92,3,Ascites,3,3,0,457,11,1,Medium
+0,0,72,1,private_ambulance,0,right ocular pain,0,0,5,178,101,43,9,34.9,87,2,"Fever, unspecified",5,1,0,78,15,1,Critical
+0,0,58,12,walking,0,"distension, abd",1,0,6,128,76,72,16,36.9,100,4,"Fever, unspecified",1,4,0,556,2,1,Low
+1,0,53,3,walking,0,"arm pain, Lt",1,0,1,114,80,98,12,37.3,100,5,Corneal abrasion,2,5,0,355,9,0,Low
+0,0,84,7,private_ambulance,0,"arm pain, Lt",0,0,6,183,119,48,33,34.4,71,2,Alcoholic liver cirrhosis,4,2,0,292,9,1,Critical
+1,1,84,8,car,1,fever,0,1,9,112,73,70,20,37.0,100,4,Angina pectoris,1,4,0,464,14,0,Low
+0,0,73,1,private_ambulance,1,right ocular pain,0,0,1,115,78,95,13,37.1,96,5,Alcoholic liver cirrhosis,2,5,0,444,7,1,Low
+0,0,33,13,car,0,"arm pain, Lt",0,1,5,129,72,78,19,36.9,100,4,Ascites,1,5,0,255,3,1,Low
+1,0,87,5,walking,0,"distension, abd",0,0,1,130,94,119,23,38.3,90,3,"Burn of hand, first degree dorsum",3,3,0,452,15,0,Medium
+1,0,46,2,ambulance,0,With chest discomfort,1,0,5,112,78,66,15,37.2,98,5,"Fever, unspecified",1,5,0,270,2,1,Low
+1,1,42,8,walking,1,fever,0,1,6,143,87,100,22,37.9,91,3,"Burn of hand, first degree dorsum",3,3,0,369,15,1,Medium
+1,1,63,9,car,0,fever,0,1,3,127,76,76,13,37.2,95,4,Corneal abrasion,1,5,0,594,5,1,Low
+1,1,37,4,walking,0,ascites tapping,0,1,6,146,85,107,24,38.5,94,3,"Burn of hand, first degree dorsum",2,3,0,179,12,1,Medium
+0,1,23,4,car,1,"arm pain, Lt",0,0,4,183,55,40,36,35.3,82,2,Ascites,4,2,0,287,7,0,Critical
+1,1,63,13,private_ambulance,0,"distension, abd",0,1,3,137,86,116,25,37.9,91,3,Ascites,3,3,0,151,11,0,Medium
+0,1,60,11,private_ambulance,1,right forearm burn,0,1,1,117,71,68,14,36.6,99,4,"Burn of hand, first degree dorsum",1,4,0,294,15,0,Low
+0,1,69,2,ambulance,1,"distension, abd",1,1,3,137,91,119,21,38.7,91,3,Alcoholic liver cirrhosis,3,3,0,100,4,1,Medium
+0,0,31,9,private_ambulance,0,"distension, abd",0,0,8,129,71,94,20,37.3,95,5,Angina pectoris,1,4,0,471,9,1,Low
+1,0,23,13,private_ambulance,1,"arm pain, Lt",0,1,3,118,85,74,13,36.8,99,5,Corneal abrasion,1,5,0,37,10,0,Low
+0,1,66,7,walking,0,right forearm burn,1,1,5,147,91,118,22,38.4,93,3,"Burn of hand, first degree dorsum",3,3,0,409,9,1,Medium
+1,1,57,12,ambulance,0,fever,0,1,3,113,76,92,18,37.3,99,4,"Fever, unspecified",2,4,0,35,13,0,Low
+1,0,78,2,walking,0,"arm pain, Lt",0,0,7,199,59,151,31,34.3,89,1,"Burn of hand, first degree dorsum",5,1,0,30,3,0,Critical
+1,1,69,7,ambulance,0,fever,0,0,9,195,51,132,9,34.4,87,1,Corneal abrasion,5,2,0,555,5,1,Critical
+1,0,66,13,walking,1,fever,1,0,8,133,89,102,23,38.5,91,3,Fracture of surgical neck of humerus,3,3,0,558,9,0,Medium
+0,1,51,2,private_ambulance,1,right ocular pain,0,1,6,141,88,118,22,37.8,91,3,"Fever, unspecified",2,3,0,277,14,1,Medium
+0,1,43,3,car,0,right ocular pain,1,0,9,111,85,83,17,37.0,99,5,Angina pectoris,1,5,0,553,5,1,Low
+0,1,34,8,car,1,ascites tapping,0,1,2,126,84,80,12,36.5,96,5,Fracture of surgical neck of humerus,2,4,0,295,3,1,Low
+1,1,78,3,private_ambulance,1,right forearm burn,1,1,6,122,78,88,14,37.1,99,4,Angina pectoris,2,4,0,271,9,1,Low
+0,0,43,8,car,0,ascites tapping,1,0,9,180,49,46,31,40.4,80,2,Ascites,5,2,0,600,15,1,Critical
+0,1,70,14,ambulance,0,With chest discomfort,1,1,6,126,85,88,13,36.9,97,5,"Fever, unspecified",1,4,0,375,7,1,Low
+0,0,27,6,ambulance,1,"arm pain, Lt",1,1,10,185,111,46,8,35.0,76,1,Corneal abrasion,4,2,0,95,15,1,Critical
+1,0,21,2,walking,0,right ocular pain,1,1,4,137,89,114,25,37.7,94,3,"Fever, unspecified",2,3,0,395,14,1,Medium
+1,1,77,3,ambulance,1,fever,1,1,6,85,114,146,8,34.0,81,2,"Fever, unspecified",4,2,0,533,13,1,Critical
+1,0,73,13,car,1,right forearm burn,1,1,7,117,75,84,18,36.7,95,5,Fracture of surgical neck of humerus,2,4,0,574,13,1,Low
+0,0,26,5,car,1,"distension, abd",1,1,10,125,76,80,12,36.7,99,4,Fracture of surgical neck of humerus,1,4,0,305,3,1,Low
+0,0,47,1,private_ambulance,0,"arm pain, Lt",1,1,8,141,92,101,22,37.6,91,3,Corneal abrasion,3,3,0,586,8,0,Medium
+1,0,50,2,ambulance,1,With chest discomfort,1,0,1,116,84,66,20,37.2,96,5,Fracture of surgical neck of humerus,2,5,0,192,11,0,Low
+0,1,88,8,walking,0,"arm pain, Lt",0,0,2,137,95,113,22,37.5,92,3,Corneal abrasion,2,3,0,73,10,1,Medium
+1,0,37,4,ambulance,1,right ocular pain,1,0,1,141,95,104,25,38.3,90,3,Fracture of surgical neck of humerus,2,3,0,385,13,1,Medium
+1,1,20,12,ambulance,1,right ocular pain,1,1,9,139,93,115,21,38.4,94,3,Fracture of surgical neck of humerus,3,3,0,597,3,0,Medium
+1,1,75,9,walking,1,right ocular pain,1,0,1,149,90,119,21,38.0,90,3,Angina pectoris,3,3,0,594,3,1,Medium
+0,0,59,9,car,0,With chest discomfort,0,0,1,116,73,91,15,36.6,99,5,Corneal abrasion,2,5,0,405,4,0,Low
+1,0,44,8,car,1,"distension, abd",1,1,1,129,78,93,12,37.2,97,4,Corneal abrasion,1,4,0,266,9,1,Low
+0,0,85,9,private_ambulance,0,With chest discomfort,1,1,7,113,75,71,20,36.9,97,4,Fracture of surgical neck of humerus,2,5,0,593,6,1,Low
+1,0,73,10,ambulance,1,With chest discomfort,1,1,8,124,82,60,12,37.5,99,4,Corneal abrasion,2,4,0,337,4,0,Low
+1,0,20,2,car,1,"arm pain, Lt",0,0,5,81,108,156,10,35.1,85,1,"Fever, unspecified",4,2,0,420,2,0,Critical
+1,1,60,7,car,0,fever,0,1,1,79,50,45,28,35.5,77,2,"Burn of hand, first degree dorsum",5,2,0,165,6,0,Critical
+1,1,24,2,private_ambulance,1,With chest discomfort,0,0,8,127,76,91,18,37.2,96,4,Fracture of surgical neck of humerus,1,4,0,470,6,0,Low
+1,1,70,6,ambulance,1,"arm pain, Lt",0,1,3,121,84,99,14,36.9,96,4,Angina pectoris,1,5,0,117,2,0,Low
+1,0,36,6,car,1,ascites tapping,1,0,6,116,76,73,20,37.0,97,5,Alcoholic liver cirrhosis,1,4,0,569,1,1,Low
+0,1,54,1,private_ambulance,0,right ocular pain,1,1,6,113,70,78,18,36.7,98,4,Angina pectoris,2,5,0,574,2,0,Low
+0,0,76,4,walking,1,ascites tapping,1,0,1,121,81,82,16,36.7,99,5,Alcoholic liver cirrhosis,2,4,0,60,9,1,Low
+1,0,61,2,private_ambulance,0,ascites tapping,0,0,7,119,80,88,20,36.6,100,4,Fracture of surgical neck of humerus,1,4,0,566,15,0,Low
+0,1,36,2,car,0,"arm pain, Lt",0,0,6,123,83,79,19,37.2,100,5,Corneal abrasion,1,4,0,164,3,0,Low
+0,0,52,4,car,1,right ocular pain,1,0,9,149,92,120,22,37.8,93,3,"Burn of hand, first degree dorsum",2,3,0,227,4,0,Medium
+1,1,19,4,ambulance,0,right ocular pain,0,1,10,125,80,89,15,36.9,95,5,Ascites,2,5,0,579,9,0,Low
+1,0,75,15,ambulance,1,fever,0,1,9,150,85,106,22,38.2,92,3,Alcoholic liver cirrhosis,2,3,0,331,10,0,Medium
+1,1,36,2,car,0,With chest discomfort,0,1,7,140,92,100,21,38.2,91,3,Fracture of surgical neck of humerus,3,3,0,197,12,0,Medium
+1,0,75,9,private_ambulance,0,ascites tapping,1,0,3,120,74,70,14,36.7,100,4,Fracture of surgical neck of humerus,2,5,0,486,5,0,Low
+0,0,34,10,walking,0,ascites tapping,1,1,9,110,85,75,15,37.1,98,5,Corneal abrasion,2,5,0,36,4,1,Low
+0,0,89,3,ambulance,0,fever,1,0,3,131,95,118,24,37.9,90,3,"Burn of hand, first degree dorsum",3,3,0,195,11,1,Medium
+0,1,89,12,walking,0,right ocular pain,1,1,6,142,86,113,24,37.6,93,3,Fracture of surgical neck of humerus,3,3,0,569,7,0,Medium
+0,0,25,8,walking,1,"distension, abd",1,1,9,148,94,111,21,38.4,93,3,Ascites,2,3,0,268,12,1,Medium
+0,0,18,8,car,0,With chest discomfort,1,1,1,80,40,44,32,39.7,80,2,"Burn of hand, first degree dorsum",4,1,0,368,14,1,Critical
+1,0,79,11,ambulance,1,right forearm burn,1,1,8,163,58,156,9,39.5,87,1,Ascites,4,2,0,149,14,1,Critical
+0,1,58,7,car,1,right forearm burn,1,1,5,136,93,109,21,37.7,90,3,Ascites,3,3,0,55,13,1,Medium
+0,1,37,15,private_ambulance,1,With chest discomfort,1,0,2,86,114,48,9,34.5,86,2,"Fever, unspecified",5,1,0,244,6,0,Critical
+1,1,53,11,car,1,right forearm burn,0,1,2,110,73,73,20,36.9,97,5,Ascites,2,4,0,280,3,0,Low
+1,0,61,3,car,1,fever,0,0,7,111,72,87,18,36.7,99,5,Fracture of surgical neck of humerus,2,5,0,232,12,0,Low
+0,0,77,14,private_ambulance,0,ascites tapping,1,1,8,77,108,131,35,40.2,85,2,Angina pectoris,5,1,0,386,10,0,Critical
+0,1,69,9,car,1,"distension, abd",1,1,10,143,88,119,21,38.3,93,3,"Burn of hand, first degree dorsum",3,3,0,471,13,1,Medium
+0,0,61,11,car,1,right ocular pain,1,1,9,133,92,105,22,38.9,90,3,Alcoholic liver cirrhosis,3,3,0,92,2,0,Medium
+0,0,18,8,walking,1,"distension, abd",1,0,4,179,53,120,8,34.6,70,2,Angina pectoris,5,1,0,61,4,1,Critical
+1,1,68,7,private_ambulance,1,"distension, abd",0,0,8,134,88,117,23,38.8,92,3,Angina pectoris,3,3,0,158,3,0,Medium
+0,1,20,11,private_ambulance,0,right ocular pain,0,1,8,129,83,99,14,37.0,98,5,"Burn of hand, first degree dorsum",2,5,0,220,7,0,Low
+1,1,48,15,walking,0,right ocular pain,1,1,2,148,92,102,21,38.6,94,3,Ascites,2,3,0,120,4,1,Medium
+1,0,27,15,walking,0,ascites tapping,1,1,10,140,91,111,22,37.9,90,3,"Fever, unspecified",2,3,0,514,10,0,Medium
+0,1,55,8,car,0,"distension, abd",0,1,5,134,94,108,22,38.8,90,3,"Fever, unspecified",2,3,0,487,6,0,Medium
+1,0,48,13,car,1,right ocular pain,0,0,8,123,82,75,19,37.2,96,4,"Fever, unspecified",1,5,0,300,13,0,Low
+1,1,77,5,private_ambulance,0,ascites tapping,1,1,5,114,83,60,16,37.4,98,5,Corneal abrasion,1,5,0,574,11,1,Low
+1,1,73,5,walking,0,"arm pain, Lt",1,1,4,172,45,50,8,40.5,77,2,Corneal abrasion,4,2,0,54,10,0,Critical
+0,0,45,2,ambulance,1,fever,0,0,3,118,79,89,13,37.1,97,5,"Burn of hand, first degree dorsum",2,5,0,105,5,0,Low
+0,1,60,14,walking,0,ascites tapping,0,1,4,129,82,71,19,36.6,99,5,Alcoholic liver cirrhosis,1,4,0,295,2,0,Low
+1,0,50,15,private_ambulance,0,fever,0,0,7,118,74,81,18,37.1,99,5,Alcoholic liver cirrhosis,2,5,0,101,9,0,Low
+0,1,79,6,walking,1,right ocular pain,0,1,9,120,72,89,16,37.1,96,4,Fracture of surgical neck of humerus,1,5,0,429,15,0,Low
+1,0,63,15,private_ambulance,0,right forearm burn,0,0,1,148,88,115,23,37.6,94,3,Corneal abrasion,3,3,0,67,6,0,Medium
+1,0,23,4,private_ambulance,0,fever,0,0,1,114,85,61,19,37.4,99,4,Corneal abrasion,1,4,0,206,11,0,Low
+1,0,30,14,car,0,right ocular pain,1,0,2,187,52,50,9,40.4,72,1,Angina pectoris,4,2,0,455,3,1,Critical
+0,0,74,3,car,1,With chest discomfort,0,0,8,132,85,100,21,38.9,94,3,"Fever, unspecified",3,3,0,159,4,0,Medium
+1,1,84,4,ambulance,0,"distension, abd",0,1,10,132,95,109,22,38.1,94,3,Ascites,2,3,0,127,10,1,Medium
+0,1,87,13,ambulance,1,right ocular pain,0,0,3,85,45,143,34,40.7,71,1,"Burn of hand, first degree dorsum",4,1,0,59,8,0,Critical
+1,1,48,7,ambulance,1,right forearm burn,0,1,4,113,77,86,15,36.9,96,4,Corneal abrasion,2,5,0,476,3,0,Low
+0,1,76,6,ambulance,1,fever,0,1,5,76,41,44,35,40.0,89,1,Corneal abrasion,4,1,0,451,14,1,Critical
+1,1,45,5,car,1,fever,0,0,6,83,58,46,9,34.6,84,2,Ascites,4,1,0,42,12,1,Critical
+1,1,34,4,car,0,ascites tapping,1,0,8,88,54,131,10,39.6,86,1,Angina pectoris,5,2,0,306,12,0,Critical
+1,0,28,9,walking,0,right ocular pain,1,1,8,149,85,111,22,37.8,94,3,Fracture of surgical neck of humerus,2,3,0,274,9,0,Medium
+0,1,44,6,walking,1,"arm pain, Lt",0,0,6,141,92,115,24,38.3,90,3,Ascites,3,3,0,406,13,0,Medium
+0,0,76,7,ambulance,1,right ocular pain,0,0,5,113,74,91,14,37.4,99,4,"Fever, unspecified",2,5,0,584,15,0,Low
+1,0,71,5,ambulance,0,right ocular pain,0,1,7,128,80,80,19,37.1,100,5,Ascites,2,5,0,165,15,1,Low
+0,1,51,6,walking,0,right forearm burn,1,1,8,115,75,94,16,36.7,96,4,Corneal abrasion,1,4,0,72,6,0,Low
+0,0,65,9,car,1,"arm pain, Lt",0,1,8,127,75,94,16,36.6,95,5,Alcoholic liver cirrhosis,1,5,0,357,3,0,Low
+1,1,87,8,walking,0,With chest discomfort,1,1,2,85,103,40,9,34.5,88,1,Corneal abrasion,4,2,0,115,9,1,Critical
+1,0,29,8,walking,0,fever,1,1,3,143,90,112,22,37.5,92,3,Angina pectoris,3,3,0,119,4,1,Medium
+1,1,71,3,private_ambulance,1,right forearm burn,0,0,4,139,92,116,22,37.6,94,3,Alcoholic liver cirrhosis,2,3,0,309,7,0,Medium
+0,0,90,3,private_ambulance,1,"distension, abd",1,0,5,148,89,115,24,38.6,91,3,Fracture of surgical neck of humerus,2,3,0,337,11,1,Medium
+1,0,54,8,ambulance,0,right ocular pain,1,1,2,129,81,97,19,37.1,97,5,Ascites,2,4,0,47,14,1,Low
+0,1,25,8,ambulance,1,right forearm burn,0,1,6,123,81,63,16,36.8,100,4,Angina pectoris,1,4,0,126,10,0,Low
+1,1,58,11,walking,0,"distension, abd",1,0,1,134,93,109,22,38.7,93,3,"Burn of hand, first degree dorsum",2,3,0,188,9,0,Medium
+0,1,89,8,car,0,With chest discomfort,0,0,8,179,114,42,10,34.2,79,1,Corneal abrasion,4,1,0,465,12,0,Critical
+1,0,79,4,car,0,With chest discomfort,0,1,2,118,71,64,16,37.2,95,4,"Burn of hand, first degree dorsum",1,4,0,389,1,0,Low
+1,1,53,3,ambulance,0,right ocular pain,0,0,4,119,75,94,12,37.5,95,4,"Fever, unspecified",2,5,0,219,8,0,Low
+1,1,63,4,ambulance,1,right ocular pain,1,0,8,113,74,91,17,37.2,99,4,Alcoholic liver cirrhosis,2,4,0,148,7,1,Low
+1,0,57,9,private_ambulance,1,With chest discomfort,1,0,2,125,81,71,12,37.5,98,4,Ascites,2,5,0,117,2,0,Low
+0,0,31,6,ambulance,1,right forearm burn,1,0,4,123,85,77,16,37.3,100,5,"Fever, unspecified",2,5,0,444,8,1,Low
+0,0,76,5,private_ambulance,1,right forearm burn,0,0,2,111,72,91,12,37.5,98,5,Ascites,2,4,0,128,13,0,Low
+1,1,84,4,walking,1,ascites tapping,1,1,9,147,85,101,23,38.8,90,3,Angina pectoris,3,3,0,415,8,1,Medium
+1,0,40,8,private_ambulance,0,"arm pain, Lt",1,1,2,128,85,95,20,37.1,98,4,Fracture of surgical neck of humerus,2,4,0,536,10,1,Low
+1,1,63,1,car,0,right forearm burn,1,1,10,130,95,110,23,37.6,92,3,Corneal abrasion,3,3,0,280,4,0,Medium
+0,1,28,2,walking,0,right ocular pain,1,0,8,143,94,116,23,37.9,93,3,Ascites,3,3,0,429,6,0,Medium
+0,1,30,8,walking,0,"distension, abd",1,1,7,76,106,123,10,34.9,88,2,Ascites,4,2,0,573,8,1,Critical
+1,1,27,7,walking,0,ascites tapping,1,1,10,126,84,95,14,37.4,100,4,"Fever, unspecified",1,5,0,508,5,1,Low
+0,1,25,8,ambulance,0,right forearm burn,1,1,7,80,108,130,10,34.6,70,1,Alcoholic liver cirrhosis,5,2,0,476,7,0,Critical
+0,0,52,5,walking,0,fever,0,1,1,111,72,80,16,37.4,98,5,Angina pectoris,2,4,0,173,4,0,Low
+0,1,82,8,car,0,"distension, abd",0,1,6,148,91,107,23,37.8,90,3,Alcoholic liver cirrhosis,3,3,0,448,5,0,Medium
+0,1,65,9,private_ambulance,1,fever,0,1,3,121,85,83,16,36.5,99,4,Fracture of surgical neck of humerus,1,4,0,595,7,1,Low
+0,0,64,14,private_ambulance,1,right ocular pain,1,1,5,132,88,109,21,38.8,91,3,Angina pectoris,3,3,0,64,5,0,Medium
+1,1,80,15,walking,1,With chest discomfort,0,0,5,164,119,47,10,34.9,70,2,Fracture of surgical neck of humerus,5,1,0,114,2,0,Critical
+1,1,34,8,private_ambulance,0,"arm pain, Lt",0,1,5,116,72,86,17,36.7,98,4,Ascites,1,4,0,264,15,0,Low
+1,0,43,1,private_ambulance,1,"distension, abd",1,0,2,81,116,47,8,40.8,79,2,Alcoholic liver cirrhosis,4,2,0,241,10,0,Critical
+0,1,54,3,private_ambulance,0,right ocular pain,1,1,4,89,118,120,33,40.6,89,2,Ascites,4,1,0,90,1,1,Critical
+1,0,78,1,walking,1,"arm pain, Lt",1,1,3,87,105,45,33,34.2,74,2,Alcoholic liver cirrhosis,5,2,0,319,15,1,Critical
+1,1,51,15,ambulance,1,fever,1,0,9,150,92,101,21,37.7,91,3,Fracture of surgical neck of humerus,3,3,0,197,12,1,Medium
+0,1,81,6,private_ambulance,1,ascites tapping,0,0,2,121,72,73,16,36.7,96,5,Ascites,1,4,0,214,7,0,Low
+0,1,81,1,walking,0,ascites tapping,1,0,6,114,70,65,19,37.3,100,5,Ascites,2,5,0,35,6,0,Low
+1,0,75,4,car,1,"arm pain, Lt",0,0,9,149,91,102,23,37.9,91,3,Angina pectoris,2,3,0,243,3,1,Medium
+0,0,54,5,private_ambulance,1,fever,1,0,6,133,90,116,21,38.2,93,3,Corneal abrasion,3,3,0,462,13,1,Medium
+1,0,73,1,walking,1,fever,0,0,8,146,95,120,24,37.6,93,3,Fracture of surgical neck of humerus,3,3,0,182,3,1,Medium
+1,1,84,10,car,0,right ocular pain,0,1,7,189,51,48,38,39.8,71,1,Fracture of surgical neck of humerus,5,2,0,495,13,1,Critical
+1,0,51,4,ambulance,0,fever,1,0,7,147,85,100,23,37.7,91,3,Angina pectoris,3,3,0,528,5,1,Medium
+1,0,68,3,ambulance,0,right forearm burn,0,0,4,130,88,115,25,37.7,91,3,Fracture of surgical neck of humerus,2,3,0,504,3,1,Medium
+0,0,32,12,private_ambulance,1,ascites tapping,0,1,10,117,76,78,18,36.6,95,4,Angina pectoris,2,5,0,537,12,1,Low
+1,1,69,4,car,0,ascites tapping,1,0,5,130,83,90,13,37.0,100,5,Corneal abrasion,2,5,0,195,5,0,Low
+0,0,74,10,walking,1,right forearm burn,1,1,7,130,81,90,14,37.1,97,4,"Burn of hand, first degree dorsum",1,5,0,234,3,1,Low
+1,1,71,4,ambulance,0,right ocular pain,1,1,6,115,75,92,12,37.3,97,5,Corneal abrasion,1,4,0,259,8,1,Low
+0,1,63,15,ambulance,0,fever,0,1,8,73,57,42,8,40.6,73,1,Angina pectoris,5,2,0,171,2,0,Critical
+0,0,71,14,private_ambulance,1,"arm pain, Lt",0,0,5,121,83,83,15,36.7,99,5,Angina pectoris,1,4,0,469,7,1,Low
+1,0,84,8,ambulance,0,fever,0,0,6,80,101,40,39,40.8,80,2,Ascites,5,1,0,180,12,1,Critical
+1,1,44,15,private_ambulance,0,"arm pain, Lt",0,0,9,120,82,68,20,37.5,97,4,Ascites,2,4,0,378,13,0,Low
+1,0,87,14,walking,1,"distension, abd",0,0,6,118,81,67,12,37.3,95,5,Alcoholic liver cirrhosis,1,5,0,377,4,0,Low
+0,1,54,9,ambulance,0,"arm pain, Lt",0,1,8,113,74,87,18,36.6,95,5,"Burn of hand, first degree dorsum",2,4,0,486,2,1,Low
+1,1,69,10,private_ambulance,1,ascites tapping,1,1,3,134,93,104,23,38.6,91,3,Alcoholic liver cirrhosis,3,3,0,63,12,0,Medium
+0,1,65,2,car,1,"distension, abd",1,0,9,167,111,44,30,40.8,76,1,Corneal abrasion,4,2,0,590,6,0,Critical
+1,1,71,10,private_ambulance,1,With chest discomfort,1,1,10,168,54,125,31,39.6,78,1,Ascites,4,1,0,346,9,0,Critical
+0,0,28,10,ambulance,1,"distension, abd",0,0,9,135,85,108,21,37.9,94,3,Alcoholic liver cirrhosis,3,3,0,76,8,0,Medium
+1,0,41,14,walking,1,"arm pain, Lt",0,0,2,127,75,78,14,36.7,95,4,"Fever, unspecified",2,5,0,203,1,1,Low
+1,1,25,2,walking,0,ascites tapping,1,1,7,113,71,72,15,37.3,99,4,Corneal abrasion,2,5,0,305,1,1,Low
+0,1,70,1,private_ambulance,0,right ocular pain,1,0,4,127,74,79,18,36.9,100,4,Ascites,2,4,0,202,13,0,Low
+1,0,72,1,private_ambulance,1,fever,0,0,1,145,89,119,22,38.8,93,3,Corneal abrasion,3,3,0,195,12,0,Medium
+0,0,68,12,walking,1,right forearm burn,1,1,5,124,78,75,17,36.8,98,5,"Fever, unspecified",1,4,0,32,10,1,Low
+0,1,19,9,private_ambulance,1,"distension, abd",0,0,9,110,84,67,17,37.5,98,5,Angina pectoris,1,5,0,38,2,1,Low
+1,0,42,4,car,1,fever,1,0,2,129,79,74,15,37.5,97,4,"Fever, unspecified",2,5,0,244,1,0,Low
+0,1,68,10,private_ambulance,0,"distension, abd",0,0,2,88,44,48,28,35.0,83,1,Angina pectoris,5,2,0,446,5,0,Critical
+1,1,77,9,car,0,right ocular pain,1,1,9,144,90,100,23,37.8,90,3,Corneal abrasion,3,3,0,285,4,0,Medium
+0,0,26,8,private_ambulance,0,"distension, abd",1,1,4,113,85,75,17,37.3,97,4,Angina pectoris,2,4,0,127,11,1,Low
+0,0,28,7,walking,0,With chest discomfort,0,0,8,131,89,119,25,38.1,90,3,Angina pectoris,3,3,0,420,7,0,Medium
+0,0,70,8,private_ambulance,1,With chest discomfort,1,0,6,150,95,100,23,38.3,94,3,Corneal abrasion,2,3,0,99,10,0,Medium
+1,1,34,7,private_ambulance,1,right forearm burn,0,0,1,168,113,44,35,34.9,86,1,Ascites,4,1,0,85,7,1,Critical
+0,0,43,6,ambulance,1,fever,1,1,10,128,80,99,16,36.9,96,4,Alcoholic liver cirrhosis,1,5,0,254,15,0,Low
+1,0,47,4,private_ambulance,1,With chest discomfort,1,0,7,135,85,111,20,37.6,90,3,Alcoholic liver cirrhosis,3,3,0,229,11,1,Medium
+0,0,21,5,ambulance,0,"arm pain, Lt",0,1,9,117,75,72,12,36.7,97,4,Alcoholic liver cirrhosis,1,4,0,143,6,0,Low
+1,1,48,11,ambulance,1,fever,0,0,3,114,76,72,20,36.9,97,5,Corneal abrasion,1,5,0,223,14,1,Low
+0,0,59,11,walking,0,With chest discomfort,1,0,2,145,95,119,20,37.8,93,3,"Burn of hand, first degree dorsum",3,3,0,359,12,1,Medium
+1,1,79,5,private_ambulance,0,right forearm burn,0,0,8,137,91,106,22,38.1,93,3,Ascites,3,3,0,116,3,0,Medium
+1,0,84,10,car,1,"distension, abd",1,1,8,124,83,86,17,37.3,97,5,"Burn of hand, first degree dorsum",1,5,0,482,4,1,Low
+0,1,63,14,car,1,right forearm burn,0,0,2,141,85,117,21,38.0,92,3,"Burn of hand, first degree dorsum",3,3,0,171,14,1,Medium
+1,1,56,13,private_ambulance,1,With chest discomfort,0,1,9,114,82,74,15,37.2,96,5,"Fever, unspecified",2,4,0,502,6,0,Low
+1,1,42,4,private_ambulance,1,With chest discomfort,0,1,3,128,74,79,12,37.0,100,5,Alcoholic liver cirrhosis,1,5,0,465,11,1,Low
+1,1,86,10,car,0,right forearm burn,0,1,10,150,94,119,24,38.8,93,3,Ascites,2,3,0,425,4,1,Medium
+1,1,90,2,ambulance,0,fever,0,0,10,125,70,71,15,36.6,98,5,Fracture of surgical neck of humerus,1,4,0,566,2,1,Low
+0,0,84,6,private_ambulance,1,right forearm burn,0,0,9,123,85,64,18,37.5,96,4,Alcoholic liver cirrhosis,2,4,0,516,3,1,Low
+1,1,82,4,car,0,ascites tapping,0,1,10,137,93,110,24,38.8,93,3,Fracture of surgical neck of humerus,2,3,0,497,6,1,Medium
+1,0,40,3,private_ambulance,1,ascites tapping,0,0,7,111,77,70,16,37.4,99,5,Alcoholic liver cirrhosis,1,4,0,451,13,0,Low
+0,1,27,7,private_ambulance,0,"arm pain, Lt",0,0,8,164,110,43,8,39.7,85,2,Ascites,4,1,0,278,12,1,Critical
+0,0,53,14,car,0,right forearm burn,1,0,9,122,75,64,12,37.2,96,5,"Burn of hand, first degree dorsum",1,5,0,65,15,0,Low
+0,1,24,12,walking,1,right ocular pain,0,0,7,116,77,83,15,36.7,95,5,Fracture of surgical neck of humerus,1,4,0,226,11,0,Low
+0,0,30,1,private_ambulance,0,With chest discomfort,1,1,9,130,76,99,15,37.4,98,5,"Burn of hand, first degree dorsum",1,4,0,138,6,1,Low
+1,0,69,7,ambulance,1,right forearm burn,0,1,10,121,71,64,15,36.9,99,5,Fracture of surgical neck of humerus,1,4,0,127,10,1,Low
+0,1,67,3,walking,1,right ocular pain,1,0,10,188,56,48,8,34.5,89,1,Fracture of surgical neck of humerus,4,1,0,540,5,0,Critical
+0,0,44,15,private_ambulance,1,right forearm burn,1,1,1,126,83,78,12,36.7,100,5,"Burn of hand, first degree dorsum",1,5,0,582,1,0,Low
+1,1,46,3,private_ambulance,0,right ocular pain,1,0,4,71,46,42,8,34.6,76,1,Ascites,4,2,0,284,5,1,Critical
+1,1,43,2,walking,1,ascites tapping,0,1,8,143,93,119,25,38.2,91,3,Alcoholic liver cirrhosis,3,3,0,115,13,1,Medium
+0,1,37,7,private_ambulance,1,ascites tapping,1,1,9,149,92,102,22,37.7,93,3,Corneal abrasion,2,3,0,43,14,1,Medium
+1,1,71,7,private_ambulance,1,fever,0,1,1,113,82,96,14,36.7,98,5,"Fever, unspecified",2,5,0,407,12,0,Low
+0,0,72,8,car,1,fever,0,0,5,149,92,104,22,37.9,94,3,Angina pectoris,2,3,0,124,11,1,Medium
+0,1,28,3,private_ambulance,1,fever,1,1,10,119,83,65,13,37.1,97,4,"Fever, unspecified",1,5,0,437,12,1,Low
+1,0,39,2,car,1,"distension, abd",1,1,7,115,75,83,14,37.2,96,5,Alcoholic liver cirrhosis,1,4,0,247,3,0,Low
+0,1,41,15,private_ambulance,1,fever,0,0,2,119,72,84,13,36.8,97,4,Alcoholic liver cirrhosis,2,4,0,133,1,0,Low
+0,0,18,4,car,1,"distension, abd",1,1,8,120,83,81,17,37.2,97,5,"Fever, unspecified",2,4,0,438,7,0,Low
+0,0,60,8,private_ambulance,0,right ocular pain,0,1,4,188,56,160,38,41.0,84,1,"Fever, unspecified",5,2,0,113,6,1,Critical
+0,1,78,5,ambulance,0,With chest discomfort,0,0,8,179,45,47,8,35.1,73,2,Fracture of surgical neck of humerus,4,1,0,422,13,1,Critical
+1,0,50,11,ambulance,1,right ocular pain,1,0,10,129,72,81,18,37.4,100,5,"Burn of hand, first degree dorsum",1,5,0,295,2,1,Low
+1,0,29,12,car,1,right forearm burn,1,1,10,110,79,63,20,36.7,98,5,Angina pectoris,2,5,0,159,9,0,Low
+1,1,19,3,walking,0,ascites tapping,1,0,10,119,74,62,17,36.8,100,4,"Fever, unspecified",2,5,0,250,8,1,Low
+0,1,66,3,ambulance,0,fever,0,0,8,142,89,105,20,38.3,92,3,Angina pectoris,3,3,0,430,7,0,Medium
+1,0,54,12,private_ambulance,0,right forearm burn,1,0,5,144,95,105,24,37.7,93,3,"Burn of hand, first degree dorsum",2,3,0,230,12,0,Medium
+0,1,31,7,ambulance,0,right ocular pain,1,1,3,111,73,92,17,37.1,96,5,Corneal abrasion,1,4,0,276,7,1,Low
+1,0,40,13,private_ambulance,1,"arm pain, Lt",1,1,1,113,73,65,13,37.0,100,4,Fracture of surgical neck of humerus,2,4,0,126,13,0,Low
+1,0,73,2,walking,0,fever,0,1,1,122,85,64,20,37.3,99,4,"Burn of hand, first degree dorsum",1,4,0,214,1,1,Low
+0,0,33,10,ambulance,0,right ocular pain,1,0,2,192,51,46,28,40.2,80,2,"Fever, unspecified",4,1,0,75,4,0,Critical
+0,0,56,10,ambulance,1,"arm pain, Lt",0,1,2,127,78,76,18,37.1,96,5,Fracture of surgical neck of humerus,1,5,0,465,12,0,Low
+1,0,27,12,walking,0,ascites tapping,0,1,7,142,85,119,21,37.6,90,3,Fracture of surgical neck of humerus,2,3,0,121,6,1,Medium
+0,1,36,1,car,1,right forearm burn,1,0,2,135,93,109,24,38.7,93,3,Ascites,3,3,0,307,10,0,Medium
+1,1,39,3,walking,1,ascites tapping,0,1,1,86,112,160,10,40.1,75,2,Ascites,5,2,0,323,5,1,Critical
+1,0,47,5,private_ambulance,1,With chest discomfort,0,0,2,137,86,105,24,37.6,92,3,"Fever, unspecified",3,3,0,550,15,0,Medium
+0,1,83,1,ambulance,0,fever,1,1,4,126,71,98,19,37.5,100,4,Fracture of surgical neck of humerus,1,4,0,166,9,1,Low
+1,1,72,3,walking,0,"arm pain, Lt",0,0,5,190,48,156,8,40.8,71,2,Fracture of surgical neck of humerus,5,1,0,335,6,0,Critical
+1,1,41,1,car,1,ascites tapping,0,0,9,126,74,86,13,37.4,95,4,Alcoholic liver cirrhosis,1,5,0,434,6,1,Low
+1,0,41,8,private_ambulance,0,right forearm burn,1,1,1,121,76,67,15,36.8,96,5,Corneal abrasion,2,5,0,194,11,0,Low
+0,1,52,8,private_ambulance,0,"arm pain, Lt",1,1,3,73,104,48,38,34.6,83,2,Alcoholic liver cirrhosis,5,2,0,114,13,1,Critical
+0,0,37,5,car,1,fever,0,1,4,125,73,92,14,36.7,99,4,"Burn of hand, first degree dorsum",1,4,0,440,1,1,Low
+1,0,36,10,ambulance,0,With chest discomfort,0,1,7,86,110,123,28,40.0,83,1,"Burn of hand, first degree dorsum",4,2,0,71,1,0,Critical
+0,1,59,8,walking,0,ascites tapping,0,1,8,141,90,109,20,37.6,90,3,"Fever, unspecified",3,3,0,400,12,1,Medium
+0,1,53,2,car,0,fever,0,0,10,130,76,72,19,37.4,95,5,Angina pectoris,2,5,0,236,9,0,Low
+1,1,42,15,walking,1,ascites tapping,0,1,2,125,83,93,20,37.3,96,5,Corneal abrasion,2,4,0,92,13,0,Low
+1,0,68,3,private_ambulance,1,"distension, abd",1,1,10,138,88,105,20,37.7,91,3,Fracture of surgical neck of humerus,3,3,0,255,5,1,Medium
+0,0,39,9,ambulance,1,right ocular pain,0,1,3,138,85,120,21,39.0,91,3,"Fever, unspecified",3,3,0,407,6,0,Medium
+1,0,88,7,walking,1,right ocular pain,0,1,4,171,40,46,31,40.4,74,2,Fracture of surgical neck of humerus,5,1,0,181,15,1,Critical
+1,0,41,14,ambulance,0,"distension, abd",1,0,5,110,79,70,14,37.3,100,4,Corneal abrasion,1,4,0,466,4,1,Low
+0,0,69,12,car,0,ascites tapping,1,0,2,70,102,42,8,34.8,76,1,Angina pectoris,5,2,0,197,5,1,Critical
+0,1,49,11,car,0,With chest discomfort,0,0,9,119,73,92,18,36.6,96,4,Alcoholic liver cirrhosis,2,4,0,180,6,1,Low
+0,1,67,3,car,0,right ocular pain,1,1,2,129,80,67,17,37.4,95,4,Alcoholic liver cirrhosis,1,4,0,573,6,0,Low
+1,1,37,6,car,1,ascites tapping,1,1,2,130,87,120,21,38.0,93,3,Corneal abrasion,2,3,0,467,12,1,Medium
+0,0,59,13,private_ambulance,1,"arm pain, Lt",1,1,8,123,80,68,15,36.9,99,5,Alcoholic liver cirrhosis,1,5,0,115,10,1,Low
+0,0,46,6,car,0,With chest discomfort,0,1,9,145,87,103,20,38.9,92,3,"Burn of hand, first degree dorsum",3,3,0,594,15,1,Medium
+0,0,46,2,ambulance,1,fever,0,1,6,111,73,97,13,37.0,99,4,Fracture of surgical neck of humerus,1,4,0,174,2,0,Low
+1,0,90,13,ambulance,1,fever,0,1,8,123,80,88,12,36.8,96,4,Ascites,1,4,0,194,1,1,Low
+1,1,76,12,ambulance,1,right forearm burn,1,0,9,82,52,43,10,40.2,82,2,Angina pectoris,4,1,0,410,11,1,Critical
+0,0,31,6,walking,0,right forearm burn,1,0,9,113,72,73,12,37.3,97,4,"Burn of hand, first degree dorsum",1,4,0,305,2,0,Low
+0,0,79,6,car,1,right ocular pain,1,1,7,146,88,110,23,38.6,91,3,"Fever, unspecified",3,3,0,545,2,0,Medium
+1,0,66,5,ambulance,0,fever,1,0,2,117,76,69,14,37.5,99,5,Fracture of surgical neck of humerus,1,5,0,327,6,1,Low
+0,0,67,10,car,0,"distension, abd",1,0,1,114,79,95,13,37.0,98,5,"Burn of hand, first degree dorsum",2,4,0,99,5,1,Low
+0,1,27,5,private_ambulance,1,With chest discomfort,1,0,2,128,85,62,17,37.4,98,5,Fracture of surgical neck of humerus,2,4,0,554,14,1,Low
+1,1,70,15,car,0,fever,0,0,3,113,79,84,14,37.1,95,4,"Fever, unspecified",2,5,0,125,6,1,Low
+1,0,86,2,ambulance,0,ascites tapping,1,0,7,120,72,80,17,37.5,98,4,Fracture of surgical neck of humerus,1,5,0,495,1,0,Low
+0,1,36,10,car,1,right ocular pain,1,1,8,76,113,44,8,39.6,83,1,Angina pectoris,4,2,0,85,2,1,Critical
+0,0,56,6,private_ambulance,1,ascites tapping,0,1,6,128,82,60,20,37.3,99,4,Fracture of surgical neck of humerus,1,4,0,354,1,0,Low
+1,1,36,2,private_ambulance,1,"distension, abd",0,1,3,90,41,46,10,34.5,81,2,Fracture of surgical neck of humerus,5,1,0,544,14,0,Critical
+1,1,76,6,walking,1,"distension, abd",1,0,3,144,91,111,21,38.3,91,3,Angina pectoris,3,3,0,477,11,1,Medium
+0,0,30,2,car,1,right ocular pain,1,0,8,146,94,101,25,37.9,93,3,Ascites,3,3,0,420,2,0,Medium
+1,1,33,7,private_ambulance,0,"arm pain, Lt",0,1,5,179,100,40,40,40.3,80,1,Ascites,4,2,0,430,4,1,Critical
+0,1,72,12,ambulance,1,"arm pain, Lt",0,1,4,73,118,50,9,34.1,70,1,"Fever, unspecified",4,2,0,163,8,1,Critical
+1,0,46,9,ambulance,1,With chest discomfort,1,0,5,112,74,100,12,37.1,99,4,Ascites,2,4,0,155,2,0,Low
+0,0,41,8,walking,0,ascites tapping,0,1,1,123,72,91,13,36.7,98,5,Angina pectoris,2,5,0,194,3,1,Low
+0,0,40,6,walking,1,"distension, abd",0,0,9,118,73,72,12,37.0,99,4,Corneal abrasion,2,4,0,252,1,1,Low
+0,1,28,5,private_ambulance,0,right ocular pain,1,1,8,125,83,92,18,37.4,97,4,Alcoholic liver cirrhosis,2,4,0,135,10,1,Low
+1,1,44,15,private_ambulance,1,"distension, abd",1,1,10,113,82,87,15,37.1,97,4,Corneal abrasion,1,5,0,553,5,1,Low
+1,1,85,1,car,0,With chest discomfort,1,1,3,121,77,64,15,37.2,97,4,Corneal abrasion,1,5,0,356,12,0,Low
+1,1,45,15,ambulance,0,ascites tapping,1,0,9,136,86,117,22,38.6,90,3,Angina pectoris,3,3,0,357,4,0,Medium
+1,0,81,5,private_ambulance,0,right ocular pain,1,0,10,120,82,75,12,36.8,100,4,"Burn of hand, first degree dorsum",2,5,0,442,1,0,Low
+0,1,20,2,private_ambulance,1,"arm pain, Lt",1,1,7,112,80,91,12,36.9,100,5,Angina pectoris,1,5,0,412,10,0,Low
+0,0,24,2,walking,1,right forearm burn,0,0,4,121,70,63,16,37.4,95,4,Corneal abrasion,2,4,0,300,6,1,Low
+0,1,39,2,ambulance,1,With chest discomfort,0,1,8,113,77,96,19,37.2,97,5,Corneal abrasion,1,5,0,300,13,1,Low
+0,0,63,12,car,0,ascites tapping,0,0,1,136,92,112,21,38.2,92,3,"Fever, unspecified",3,3,0,494,11,0,Medium
+0,0,31,15,walking,1,ascites tapping,0,1,4,177,45,42,10,40.2,70,2,Fracture of surgical neck of humerus,5,2,0,151,15,0,Critical
+0,1,45,9,private_ambulance,1,right ocular pain,1,1,6,113,71,84,18,36.7,96,5,Ascites,2,4,0,535,9,1,Low
+0,0,24,4,car,0,right ocular pain,1,0,2,127,73,77,15,37.4,100,5,Corneal abrasion,2,5,0,255,12,1,Low
+0,1,39,11,walking,1,fever,0,0,3,126,85,79,15,36.7,100,4,Fracture of surgical neck of humerus,1,4,0,496,3,0,Low
+1,0,72,3,walking,0,right forearm burn,0,1,8,148,85,115,21,38.2,90,3,Ascites,2,3,0,545,3,0,Medium
+1,1,30,8,private_ambulance,1,"distension, abd",1,1,5,141,92,100,22,38.0,92,3,"Fever, unspecified",3,3,0,561,12,0,Medium
+0,0,70,6,private_ambulance,0,right forearm burn,1,1,4,112,76,84,13,37.5,100,5,"Fever, unspecified",2,4,0,387,15,1,Low
+1,1,71,4,car,1,With chest discomfort,0,1,8,128,81,78,13,37.5,98,4,Ascites,1,5,0,326,10,0,Low
+0,1,54,1,private_ambulance,0,right forearm burn,1,0,1,125,79,60,18,36.9,95,4,Fracture of surgical neck of humerus,1,5,0,320,13,0,Low
+0,0,52,7,car,1,right forearm burn,0,1,6,200,53,139,37,35.0,76,2,Ascites,5,1,0,234,5,1,Critical
+1,0,90,7,private_ambulance,0,right forearm burn,1,1,9,121,84,82,18,37.0,98,5,Angina pectoris,1,4,0,461,2,0,Low
+0,1,56,3,walking,0,With chest discomfort,1,0,7,130,92,116,23,38.8,90,3,Fracture of surgical neck of humerus,2,3,0,129,14,1,Medium
+0,0,60,12,car,0,"distension, abd",0,1,3,137,95,120,21,38.0,92,3,Corneal abrasion,2,3,0,98,1,0,Medium
+0,0,33,4,car,1,right ocular pain,1,1,1,133,89,112,23,39.0,91,3,Alcoholic liver cirrhosis,2,3,0,179,11,0,Medium
+0,0,48,8,private_ambulance,1,"arm pain, Lt",0,1,6,118,82,84,13,37.0,98,4,Alcoholic liver cirrhosis,2,4,0,153,10,1,Low
+0,1,56,1,walking,0,ascites tapping,1,1,1,115,81,92,20,36.7,100,5,"Fever, unspecified",1,4,0,185,6,1,Low
+1,1,35,15,private_ambulance,0,With chest discomfort,1,1,8,129,75,96,20,37.3,99,5,Ascites,2,4,0,386,10,1,Low
+0,0,21,2,car,1,fever,1,1,4,117,73,71,18,37.3,98,4,Corneal abrasion,2,4,0,68,14,0,Low
+0,0,65,6,car,1,ascites tapping,0,0,4,118,85,88,16,36.7,100,4,Corneal abrasion,1,5,0,54,11,0,Low
+0,1,35,13,private_ambulance,0,"arm pain, Lt",0,1,4,116,85,92,17,36.9,99,4,Alcoholic liver cirrhosis,2,4,0,415,14,0,Low
+1,0,34,2,private_ambulance,0,right ocular pain,1,0,4,139,89,112,25,38.0,91,3,Angina pectoris,2,3,0,560,15,1,Medium
+0,1,25,15,walking,0,right ocular pain,1,1,5,116,80,63,14,36.7,100,5,Alcoholic liver cirrhosis,1,4,0,104,13,0,Low
+1,0,27,15,private_ambulance,0,"arm pain, Lt",0,0,1,125,77,82,18,37.0,96,4,Angina pectoris,1,4,0,230,9,1,Low
+1,0,20,7,private_ambulance,0,ascites tapping,1,0,2,144,86,119,22,38.0,92,3,"Burn of hand, first degree dorsum",2,3,0,124,10,0,Medium
+0,0,86,14,ambulance,0,right ocular pain,0,0,8,115,79,62,17,36.8,100,4,Ascites,1,5,0,437,8,0,Low
+1,0,27,8,walking,0,ascites tapping,1,1,9,139,95,107,24,38.8,92,3,Alcoholic liver cirrhosis,3,3,0,527,5,0,Medium
+0,1,35,12,ambulance,0,"arm pain, Lt",0,0,4,124,84,67,12,37.0,95,5,Fracture of surgical neck of humerus,2,5,0,116,1,1,Low
+1,0,67,14,private_ambulance,1,ascites tapping,0,0,4,171,101,154,37,35.4,70,2,Angina pectoris,5,2,0,88,13,0,Critical
+1,1,54,10,walking,0,ascites tapping,1,0,3,130,89,108,20,39.0,94,3,Corneal abrasion,3,3,0,310,6,1,Medium
+0,1,19,10,walking,1,With chest discomfort,0,1,8,130,92,100,23,37.6,92,3,Corneal abrasion,3,3,0,111,5,1,Medium
+0,1,74,13,walking,1,With chest discomfort,1,0,4,90,59,43,38,34.9,71,2,"Fever, unspecified",4,2,0,391,9,0,Critical
+0,0,62,9,private_ambulance,0,"distension, abd",0,0,4,140,94,111,25,38.1,93,3,Fracture of surgical neck of humerus,2,3,0,398,6,1,Medium
+1,1,65,10,car,0,"arm pain, Lt",0,1,3,88,106,152,8,35.0,72,1,Angina pectoris,4,2,0,570,13,0,Critical
+1,1,85,5,ambulance,1,right forearm burn,1,0,6,137,92,110,25,39.0,91,3,Corneal abrasion,3,3,0,390,9,0,Medium
+0,1,79,13,private_ambulance,0,"distension, abd",0,0,7,168,110,125,9,34.9,75,2,Corneal abrasion,4,1,0,458,5,1,Critical
+0,1,34,1,ambulance,0,right forearm burn,1,1,6,134,91,117,21,38.6,90,3,"Fever, unspecified",2,3,0,76,2,1,Medium
+1,1,70,5,private_ambulance,0,fever,0,0,3,197,114,45,39,39.6,85,2,Fracture of surgical neck of humerus,5,1,0,360,7,1,Critical
+0,0,36,7,walking,1,right ocular pain,1,1,3,133,89,108,23,38.2,91,3,"Burn of hand, first degree dorsum",2,3,0,315,3,0,Medium
+0,0,83,10,car,0,right ocular pain,1,0,6,116,79,96,18,37.2,99,4,Corneal abrasion,2,5,0,152,8,1,Low
+0,1,29,12,car,1,With chest discomfort,0,0,2,120,75,92,17,36.8,100,4,Alcoholic liver cirrhosis,1,5,0,132,15,1,Low
+0,0,89,4,ambulance,1,With chest discomfort,0,0,5,125,74,91,14,37.2,97,4,Ascites,1,4,0,249,1,1,Low
+0,0,89,1,private_ambulance,1,"distension, abd",1,0,6,125,75,79,15,37.4,100,5,Ascites,2,5,0,395,9,1,Low
+0,1,46,7,private_ambulance,1,right forearm burn,1,0,3,124,80,67,17,37.2,100,4,Ascites,2,5,0,451,11,0,Low
+0,1,52,1,walking,1,fever,1,1,7,124,83,85,16,37.4,97,5,"Fever, unspecified",2,4,0,76,5,1,Low
+0,0,39,10,walking,0,"distension, abd",0,0,7,112,80,82,20,36.6,95,4,"Burn of hand, first degree dorsum",1,5,0,578,7,0,Low
+1,1,38,7,ambulance,0,right ocular pain,0,0,9,113,82,91,12,36.7,97,4,Corneal abrasion,1,4,0,308,12,0,Low
+1,0,66,14,walking,0,right ocular pain,0,1,1,70,118,158,9,34.5,78,2,Alcoholic liver cirrhosis,5,2,0,125,4,1,Critical
+1,0,79,7,car,1,fever,1,1,9,133,92,107,24,39.0,93,3,Alcoholic liver cirrhosis,3,3,0,141,11,1,Medium
+0,0,28,4,private_ambulance,0,right ocular pain,0,1,10,125,77,63,19,36.8,97,5,Fracture of surgical neck of humerus,1,4,0,446,14,0,Low
+1,1,44,6,ambulance,1,ascites tapping,1,0,2,123,72,84,14,37.3,96,4,Alcoholic liver cirrhosis,1,4,0,146,1,1,Low
+1,0,85,12,private_ambulance,1,right ocular pain,1,0,7,119,78,93,17,37.1,97,4,Ascites,2,4,0,239,13,1,Low
+1,1,50,4,walking,0,right forearm burn,1,0,6,143,87,104,23,37.6,90,3,"Fever, unspecified",2,3,0,126,9,1,Medium
+1,0,25,2,walking,0,"arm pain, Lt",0,0,5,119,83,97,16,36.9,98,5,Ascites,1,4,0,186,2,0,Low
+0,0,51,13,private_ambulance,1,"distension, abd",1,1,4,115,70,74,15,36.6,99,4,Alcoholic liver cirrhosis,1,4,0,30,6,0,Low
+0,1,24,7,private_ambulance,1,"arm pain, Lt",0,0,9,184,111,48,10,35.4,83,2,"Fever, unspecified",5,2,0,153,9,1,Critical
+0,1,40,14,private_ambulance,1,fever,1,0,10,147,88,112,22,37.8,90,3,Ascites,3,3,0,229,1,1,Medium
+1,0,65,10,walking,0,fever,1,1,7,111,78,77,12,37.5,95,5,"Burn of hand, first degree dorsum",2,5,0,514,12,0,Low
+0,0,21,14,ambulance,0,ascites tapping,0,0,8,130,71,80,13,37.4,97,4,Angina pectoris,2,4,0,354,15,0,Low
+0,1,64,7,car,0,right forearm burn,0,1,2,75,48,48,10,34.5,80,2,Corneal abrasion,5,1,0,149,15,0,Critical
+0,1,29,10,car,0,With chest discomfort,0,0,6,124,72,75,16,37.3,100,4,Corneal abrasion,2,4,0,418,12,1,Low
+1,1,35,4,ambulance,1,right forearm burn,0,1,5,124,78,65,19,36.9,97,5,Corneal abrasion,1,5,0,424,3,0,Low
+1,1,73,4,walking,1,right ocular pain,0,1,4,84,43,128,33,34.8,80,1,"Burn of hand, first degree dorsum",4,2,0,461,8,1,Critical
+0,1,30,5,ambulance,1,"distension, abd",0,0,8,129,84,97,18,37.2,98,4,Ascites,2,5,0,375,8,1,Low
+0,1,47,7,walking,1,"distension, abd",0,0,9,115,79,98,20,36.7,99,4,Angina pectoris,2,4,0,85,2,1,Low
+1,1,36,7,ambulance,1,right ocular pain,0,0,3,139,89,102,21,37.9,91,3,"Burn of hand, first degree dorsum",2,3,0,598,14,1,Medium
+1,0,38,8,private_ambulance,0,ascites tapping,1,1,4,113,82,68,17,37.3,96,5,Angina pectoris,2,5,0,464,10,1,Low
+1,0,62,4,ambulance,0,"arm pain, Lt",1,1,9,130,94,119,23,38.9,91,3,Corneal abrasion,2,3,0,246,5,1,Medium
+0,1,67,3,walking,1,ascites tapping,1,0,5,123,75,70,18,37.2,95,5,"Fever, unspecified",2,4,0,133,11,1,Low
+0,1,19,3,private_ambulance,1,right ocular pain,1,1,7,179,48,148,39,35.3,75,2,"Burn of hand, first degree dorsum",4,2,0,37,6,1,Critical
+1,0,76,8,walking,0,right ocular pain,1,1,6,111,81,76,18,36.8,97,4,Fracture of surgical neck of humerus,1,5,0,395,7,0,Low
+0,0,56,6,car,1,right forearm burn,0,0,9,113,74,69,19,36.9,97,5,Angina pectoris,1,5,0,566,10,1,Low
+1,0,59,3,car,1,"distension, abd",0,1,5,123,82,61,14,37.5,97,4,Angina pectoris,1,5,0,226,10,1,Low
+0,0,83,6,private_ambulance,0,With chest discomfort,1,1,3,78,59,138,8,34.0,78,2,Corneal abrasion,5,2,0,256,4,0,Critical
+0,1,46,12,private_ambulance,1,fever,1,1,8,147,85,110,22,38.0,93,3,"Burn of hand, first degree dorsum",3,3,0,575,12,0,Medium
+1,0,50,11,car,1,"distension, abd",1,0,4,146,90,109,22,38.6,93,3,Ascites,2,3,0,200,10,1,Medium
+0,1,71,9,private_ambulance,0,ascites tapping,0,1,10,133,86,112,21,37.8,90,3,Angina pectoris,2,3,0,440,9,1,Medium
+1,1,45,6,walking,0,fever,1,1,4,122,85,89,16,37.3,98,4,Fracture of surgical neck of humerus,2,4,0,33,9,1,Low
+0,1,40,10,private_ambulance,1,ascites tapping,0,0,10,137,87,119,24,38.3,90,3,Ascites,3,3,0,285,3,1,Medium
+0,1,65,9,ambulance,0,ascites tapping,1,0,3,145,88,110,21,37.9,90,3,"Burn of hand, first degree dorsum",3,3,0,484,4,0,Medium
+0,1,82,14,ambulance,0,ascites tapping,0,0,1,193,102,44,10,34.7,79,2,Alcoholic liver cirrhosis,5,1,0,553,11,1,Critical
+0,0,33,14,walking,0,fever,0,1,7,120,74,75,19,36.7,95,5,"Fever, unspecified",2,4,0,533,13,0,Low
+1,1,61,6,private_ambulance,1,"distension, abd",1,0,3,134,93,109,20,37.8,92,3,"Fever, unspecified",3,3,0,192,10,1,Medium
+1,0,74,12,ambulance,0,"distension, abd",1,1,5,130,77,61,15,37.1,96,4,"Fever, unspecified",2,5,0,550,12,1,Low
+1,0,39,10,walking,1,ascites tapping,1,0,9,125,75,90,18,36.5,95,5,"Burn of hand, first degree dorsum",2,4,0,259,3,1,Low
+0,1,33,8,private_ambulance,0,With chest discomfort,0,0,6,131,91,120,20,38.9,94,3,Angina pectoris,2,3,0,87,8,0,Medium
+0,0,41,12,private_ambulance,0,right ocular pain,1,1,2,116,72,68,20,36.8,96,4,Alcoholic liver cirrhosis,2,4,0,130,9,0,Low
+0,1,27,2,private_ambulance,0,ascites tapping,0,0,9,128,76,98,19,36.8,95,5,Angina pectoris,2,4,0,229,10,1,Low
+1,1,50,8,ambulance,1,"distension, abd",1,1,5,78,108,50,8,41.0,85,1,Angina pectoris,4,1,0,472,11,1,Critical
+1,0,74,4,car,0,right forearm burn,1,1,6,126,85,66,16,37.4,96,4,"Burn of hand, first degree dorsum",1,5,0,435,13,0,Low
+1,1,38,11,private_ambulance,1,right forearm burn,1,1,5,169,111,139,34,34.0,83,2,Angina pectoris,5,1,0,310,1,0,Critical
+1,1,50,1,walking,1,With chest discomfort,1,1,9,127,76,73,20,36.9,97,4,"Burn of hand, first degree dorsum",1,4,0,363,12,1,Low
+0,1,78,12,private_ambulance,0,"arm pain, Lt",1,0,2,200,117,47,9,40.7,74,1,Ascites,4,2,0,120,8,0,Critical
+1,1,87,12,car,0,With chest discomfort,0,1,6,124,76,71,17,37.0,98,5,"Fever, unspecified",1,5,0,295,5,0,Low
+1,1,70,13,private_ambulance,0,With chest discomfort,0,1,1,128,83,62,20,37.4,97,5,"Fever, unspecified",2,5,0,98,12,0,Low
+0,0,89,13,car,1,"distension, abd",0,0,7,138,92,114,25,37.7,92,3,Alcoholic liver cirrhosis,3,3,0,570,13,1,Medium
+1,0,69,10,private_ambulance,0,right ocular pain,0,1,7,74,110,132,10,39.7,75,1,Angina pectoris,4,1,0,160,9,1,Critical
+1,0,59,11,ambulance,0,"arm pain, Lt",0,1,5,173,104,41,9,40.2,76,1,Corneal abrasion,4,2,0,209,9,0,Critical
+0,1,44,12,walking,1,ascites tapping,0,0,2,126,81,90,16,37.0,98,4,Angina pectoris,2,4,0,460,7,0,Low
+0,1,57,14,walking,0,fever,0,1,8,110,78,80,12,36.6,96,4,Ascites,1,4,0,189,3,1,Low
+0,1,25,6,private_ambulance,0,ascites tapping,0,0,9,134,95,105,22,38.8,90,3,"Burn of hand, first degree dorsum",3,3,0,343,7,1,Medium
+1,0,51,13,car,1,right ocular pain,1,0,3,162,59,42,9,39.6,84,2,Angina pectoris,4,2,0,30,5,1,Critical
+0,1,50,11,walking,0,ascites tapping,1,0,3,117,74,69,15,37.2,100,4,Ascites,2,5,0,137,4,0,Low
+1,1,56,11,walking,0,"arm pain, Lt",1,1,3,128,71,84,12,37.3,96,4,Angina pectoris,1,4,0,273,3,1,Low
+1,1,79,4,private_ambulance,1,right forearm burn,1,1,9,124,73,77,20,37.4,97,4,Angina pectoris,2,5,0,529,13,1,Low
+1,0,61,13,walking,1,fever,0,0,2,137,92,103,20,38.3,92,3,Alcoholic liver cirrhosis,3,3,0,476,9,0,Medium
+0,1,82,14,ambulance,0,With chest discomfort,0,0,4,81,58,48,10,34.6,89,1,Angina pectoris,5,1,0,237,5,0,Critical
+1,1,69,15,private_ambulance,1,ascites tapping,1,0,5,164,57,49,40,34.2,77,2,Alcoholic liver cirrhosis,5,1,0,228,4,1,Critical
+0,1,53,2,ambulance,0,ascites tapping,0,1,6,110,73,93,16,37.0,100,5,Fracture of surgical neck of humerus,2,4,0,157,9,1,Low
+1,0,61,7,walking,0,fever,1,1,10,115,85,78,15,37.0,95,5,Angina pectoris,2,4,0,472,7,0,Low
+1,1,53,11,walking,1,fever,1,1,2,130,86,115,21,38.4,91,3,Angina pectoris,2,3,0,529,9,1,Medium
+0,0,66,10,car,0,right ocular pain,0,1,10,149,91,112,25,38.6,92,3,Alcoholic liver cirrhosis,2,3,0,472,11,0,Medium
+0,1,41,2,walking,1,With chest discomfort,0,1,5,121,81,82,15,36.8,95,5,Angina pectoris,2,5,0,194,4,1,Low
+0,1,62,14,car,1,"arm pain, Lt",0,1,5,133,86,120,23,38.0,93,3,Fracture of surgical neck of humerus,2,3,0,527,6,1,Medium
+0,0,64,6,car,0,right forearm burn,1,1,9,171,59,125,30,40.1,73,2,"Burn of hand, first degree dorsum",5,1,0,483,14,0,Critical
+1,0,37,8,ambulance,0,right forearm burn,0,1,4,114,70,78,15,37.5,99,5,Ascites,2,5,0,594,10,0,Low
+1,1,84,12,walking,1,With chest discomfort,1,1,6,121,77,80,20,36.9,100,4,Angina pectoris,1,5,0,581,10,0,Low
+1,1,82,2,ambulance,1,fever,0,1,5,128,71,89,19,37.0,98,4,Ascites,1,4,0,489,9,0,Low
+0,0,79,11,walking,0,fever,1,1,1,191,44,148,39,40.4,74,2,"Fever, unspecified",4,1,0,396,10,0,Critical
+0,1,27,12,ambulance,0,right forearm burn,0,0,1,150,92,103,22,37.6,93,3,"Fever, unspecified",3,3,0,515,3,1,Medium
+1,0,57,12,private_ambulance,1,ascites tapping,0,0,5,122,76,74,17,37.5,100,4,Angina pectoris,2,5,0,126,9,1,Low
+0,1,25,2,ambulance,0,"distension, abd",0,0,6,122,79,61,17,37.4,96,4,Ascites,1,5,0,253,6,0,Low
+1,0,37,15,private_ambulance,0,"distension, abd",0,1,1,89,49,45,8,41.0,84,2,"Fever, unspecified",4,2,0,597,2,1,Critical
+0,1,36,4,private_ambulance,0,"arm pain, Lt",0,1,10,113,72,80,20,37.1,100,5,Fracture of surgical neck of humerus,2,4,0,168,8,0,Low
+1,1,72,7,car,1,right ocular pain,1,0,6,127,85,99,18,36.8,97,4,Corneal abrasion,1,4,0,344,15,0,Low
+0,0,24,5,private_ambulance,0,"arm pain, Lt",0,1,9,146,87,116,22,38.5,90,3,"Burn of hand, first degree dorsum",3,3,0,256,12,1,Medium
+1,0,44,10,car,0,ascites tapping,0,0,5,110,77,81,14,37.5,96,5,"Burn of hand, first degree dorsum",1,5,0,175,10,0,Low
+1,1,51,4,walking,1,fever,0,1,7,142,89,106,23,37.9,90,3,"Burn of hand, first degree dorsum",3,3,0,258,2,0,Medium
+0,0,80,9,walking,0,fever,1,1,5,127,79,78,16,36.6,95,5,Ascites,1,4,0,539,4,0,Low
+1,1,22,2,car,0,right ocular pain,1,0,2,132,88,113,24,38.1,91,3,Angina pectoris,2,3,0,245,12,1,Medium
+0,1,19,14,walking,0,"arm pain, Lt",1,0,1,122,82,69,16,37.0,96,4,"Fever, unspecified",2,4,0,479,1,1,Low
+1,0,49,3,walking,0,right ocular pain,0,1,9,127,70,99,14,37.2,97,5,Corneal abrasion,1,4,0,269,1,1,Low
+1,0,25,14,ambulance,0,"distension, abd",0,0,8,128,82,78,18,36.9,100,4,Fracture of surgical neck of humerus,2,5,0,495,8,0,Low
+0,0,64,5,ambulance,1,"arm pain, Lt",0,1,1,123,79,69,12,37.0,100,4,Angina pectoris,1,5,0,391,4,1,Low
+1,1,71,8,private_ambulance,1,"arm pain, Lt",1,1,7,114,76,75,15,37.2,99,4,Ascites,2,5,0,448,6,1,Low
+1,0,36,9,private_ambulance,1,With chest discomfort,1,0,4,116,80,95,14,37.2,99,5,Corneal abrasion,2,4,0,241,7,0,Low
+0,1,90,10,ambulance,0,ascites tapping,1,1,4,114,85,80,20,37.2,95,4,Corneal abrasion,1,4,0,38,15,0,Low
+1,1,29,4,ambulance,0,"arm pain, Lt",0,1,10,120,84,90,17,37.2,97,5,"Burn of hand, first degree dorsum",1,4,0,197,7,0,Low
+0,1,70,12,walking,0,right ocular pain,0,1,2,131,87,112,23,38.1,91,3,Ascites,3,3,0,216,8,0,Medium
+1,1,90,2,walking,0,right forearm burn,0,1,7,74,110,142,37,40.0,76,2,Fracture of surgical neck of humerus,5,1,0,200,1,0,Critical
+1,1,51,6,car,1,fever,1,0,6,147,85,104,24,37.5,94,3,"Burn of hand, first degree dorsum",3,3,0,511,7,1,Medium
+1,1,52,6,private_ambulance,1,fever,1,0,6,118,76,91,16,36.8,98,4,Corneal abrasion,1,5,0,161,13,0,Low
+1,0,40,3,ambulance,0,With chest discomfort,0,0,1,120,72,69,19,37.1,97,4,"Fever, unspecified",1,4,0,172,4,0,Low
+0,1,29,13,ambulance,0,right ocular pain,0,1,6,130,76,90,15,37.2,98,4,"Fever, unspecified",2,5,0,92,8,0,Low
+0,0,28,5,ambulance,0,fever,0,0,4,135,90,107,21,38.1,94,3,"Burn of hand, first degree dorsum",3,3,0,466,5,1,Medium
+0,1,85,5,ambulance,0,right ocular pain,0,1,6,131,94,113,20,38.5,93,3,Ascites,3,3,0,400,12,0,Medium
+1,1,58,12,private_ambulance,1,ascites tapping,1,1,6,147,88,107,24,37.8,92,3,Fracture of surgical neck of humerus,3,3,0,442,8,1,Medium
+1,1,36,1,ambulance,1,ascites tapping,0,1,6,110,83,71,14,37.1,96,4,Alcoholic liver cirrhosis,1,4,0,513,3,1,Low
+1,1,20,3,walking,1,right forearm burn,0,1,10,125,83,87,14,37.0,100,4,Corneal abrasion,1,5,0,361,12,1,Low
+0,1,36,13,ambulance,1,ascites tapping,0,1,3,140,95,109,25,38.4,94,3,Fracture of surgical neck of humerus,3,3,0,412,13,0,Medium
+0,0,78,8,walking,1,right forearm burn,0,1,4,120,85,77,20,36.8,97,4,Angina pectoris,2,4,0,264,12,0,Low
+1,1,49,15,car,1,"distension, abd",0,1,3,89,115,49,9,35.2,81,1,"Burn of hand, first degree dorsum",4,2,0,33,6,1,Critical
+0,1,79,6,private_ambulance,1,"distension, abd",0,0,10,167,106,144,28,34.4,70,2,Alcoholic liver cirrhosis,5,1,0,181,8,1,Critical
+1,0,74,15,walking,1,"arm pain, Lt",0,1,5,135,94,104,22,38.9,90,3,Fracture of surgical neck of humerus,3,3,0,175,6,1,Medium
+1,1,73,3,walking,0,fever,1,1,10,148,85,116,20,38.6,91,3,"Burn of hand, first degree dorsum",2,3,0,185,2,0,Medium
+0,1,48,6,walking,0,ascites tapping,1,0,8,82,113,42,8,40.9,77,1,Corneal abrasion,4,1,0,260,8,0,Critical
+0,0,47,9,walking,1,ascites tapping,1,0,9,119,85,61,18,37.1,95,4,"Burn of hand, first degree dorsum",1,4,0,533,1,1,Low
+0,1,65,4,ambulance,0,fever,1,1,9,141,93,112,21,38.8,94,3,Fracture of surgical neck of humerus,2,3,0,296,7,0,Medium
+0,1,75,10,private_ambulance,0,right forearm burn,0,0,7,133,88,106,24,38.6,92,3,Alcoholic liver cirrhosis,3,3,0,85,11,0,Medium
+0,0,50,5,car,0,With chest discomfort,0,1,4,145,91,110,23,39.0,94,3,Ascites,3,3,0,322,13,0,Medium
+0,0,31,10,car,0,"arm pain, Lt",0,1,8,122,75,66,12,36.9,100,4,Corneal abrasion,2,5,0,316,7,0,Low
+0,1,22,3,walking,1,With chest discomfort,0,0,1,125,75,60,13,36.6,96,5,Corneal abrasion,2,5,0,521,2,0,Low
+1,0,68,1,private_ambulance,1,With chest discomfort,1,1,3,110,71,64,16,37.2,100,5,Corneal abrasion,2,4,0,308,14,0,Low
+0,0,75,14,private_ambulance,1,With chest discomfort,0,0,5,121,72,98,17,37.0,98,4,"Fever, unspecified",2,5,0,594,9,0,Low
+1,0,62,10,private_ambulance,1,ascites tapping,1,1,3,125,83,83,18,36.6,97,4,"Fever, unspecified",2,5,0,507,8,0,Low
+0,1,61,9,ambulance,0,With chest discomfort,0,1,2,83,56,44,31,40.0,87,2,Ascites,4,2,0,389,12,1,Critical
+0,1,31,3,ambulance,0,With chest discomfort,0,1,3,132,89,107,23,38.0,91,3,Corneal abrasion,2,3,0,61,5,0,Medium
+0,1,27,8,car,1,"arm pain, Lt",1,0,10,119,80,84,17,36.7,98,5,Corneal abrasion,2,4,0,541,6,1,Low
+1,0,78,7,walking,1,right ocular pain,1,0,8,112,85,76,20,36.6,96,4,"Fever, unspecified",2,5,0,375,4,1,Low
+1,0,57,10,private_ambulance,0,right ocular pain,0,0,9,124,72,92,14,37.0,100,5,Ascites,2,4,0,150,12,1,Low
+1,0,75,1,walking,1,ascites tapping,0,0,2,116,85,91,15,36.5,100,4,Fracture of surgical neck of humerus,1,5,0,217,4,1,Low
+0,1,81,13,car,0,right forearm burn,0,0,10,161,111,153,10,39.6,87,2,Corneal abrasion,4,1,0,299,15,1,Critical
+0,0,82,2,car,0,right ocular pain,0,0,8,127,81,95,16,37.0,100,4,Ascites,1,5,0,70,4,0,Low
+1,0,35,6,car,0,right ocular pain,1,0,5,114,80,75,19,37.3,96,5,"Burn of hand, first degree dorsum",2,5,0,131,3,1,Low
+0,0,87,11,ambulance,0,With chest discomfort,0,1,9,132,94,105,21,38.4,93,3,Alcoholic liver cirrhosis,3,3,0,91,13,1,Medium
+1,0,59,4,walking,1,ascites tapping,0,0,8,129,83,100,14,36.7,99,5,Alcoholic liver cirrhosis,1,5,0,61,7,0,Low
+0,1,36,5,private_ambulance,1,ascites tapping,1,1,9,149,90,109,23,38.3,93,3,Corneal abrasion,3,3,0,531,6,0,Medium
+1,1,52,10,ambulance,1,"arm pain, Lt",0,0,6,119,76,81,20,37.2,97,5,Angina pectoris,1,5,0,172,13,1,Low
+1,0,64,13,private_ambulance,0,right ocular pain,1,0,4,129,80,71,19,36.9,98,5,Ascites,2,5,0,379,3,1,Low
+0,1,50,14,private_ambulance,0,right ocular pain,0,1,8,144,93,118,22,38.3,93,3,Alcoholic liver cirrhosis,2,3,0,531,10,0,Medium
+1,0,67,3,ambulance,0,"arm pain, Lt",0,0,2,118,73,95,20,36.8,95,5,"Fever, unspecified",1,4,0,91,1,0,Low
+1,1,53,4,ambulance,0,"distension, abd",1,1,4,114,70,95,17,37.3,96,5,"Burn of hand, first degree dorsum",1,4,0,123,10,1,Low
+0,0,33,14,private_ambulance,0,right forearm burn,1,0,3,77,107,157,9,39.6,84,1,Corneal abrasion,5,2,0,584,13,1,Critical
+1,1,80,6,car,1,"distension, abd",1,1,10,116,81,69,13,37.1,100,5,"Burn of hand, first degree dorsum",2,4,0,253,6,1,Low
+1,0,49,7,private_ambulance,0,fever,0,0,8,110,82,96,17,36.9,95,5,Alcoholic liver cirrhosis,2,5,0,121,7,1,Low
+1,1,52,8,ambulance,0,right forearm burn,0,0,7,121,71,74,13,37.2,96,4,Corneal abrasion,2,4,0,567,15,1,Low
+0,1,55,5,ambulance,0,ascites tapping,1,0,9,112,77,65,12,37.1,100,4,Alcoholic liver cirrhosis,2,5,0,201,4,0,Low
+0,0,43,13,car,1,With chest discomfort,0,0,8,87,44,120,40,34.8,82,1,Alcoholic liver cirrhosis,4,1,0,189,14,0,Critical
+1,1,65,4,private_ambulance,0,fever,0,0,3,130,71,64,18,36.6,97,5,Ascites,2,5,0,584,12,1,Low
+1,1,77,13,walking,1,right forearm burn,1,0,1,164,103,144,28,34.7,83,1,"Fever, unspecified",4,2,0,339,7,0,Critical
+1,1,47,8,private_ambulance,1,fever,1,1,4,124,74,86,12,36.7,96,4,Corneal abrasion,2,5,0,388,8,1,Low
+0,1,73,6,private_ambulance,0,With chest discomfort,1,0,6,172,56,129,8,40.1,82,2,Ascites,5,2,0,364,5,1,Critical
+0,1,84,13,private_ambulance,1,With chest discomfort,0,0,3,122,80,88,16,36.6,96,4,Alcoholic liver cirrhosis,2,5,0,255,1,0,Low
+0,1,35,10,ambulance,1,With chest discomfort,0,1,9,128,78,73,12,37.5,96,4,Angina pectoris,2,5,0,97,4,1,Low
+1,0,39,2,private_ambulance,1,"distension, abd",1,1,5,195,60,157,10,39.5,78,2,"Fever, unspecified",5,2,0,444,1,1,Critical
+0,0,50,9,ambulance,0,right forearm burn,1,0,2,192,112,141,8,34.9,80,1,Angina pectoris,5,2,0,472,3,1,Critical
+1,1,21,2,walking,0,ascites tapping,1,1,10,116,82,87,15,36.8,99,4,Ascites,1,5,0,364,10,1,Low
+0,0,30,13,car,0,"distension, abd",1,1,2,90,40,128,38,35.0,79,2,Ascites,4,1,0,114,1,0,Critical
+0,1,42,14,private_ambulance,0,"arm pain, Lt",1,0,10,79,119,42,9,39.5,75,2,Ascites,5,2,0,343,5,1,Critical
+1,1,48,4,ambulance,1,right forearm burn,0,0,2,111,73,69,13,37.5,96,4,Angina pectoris,2,4,0,370,12,1,Low
+1,1,79,2,walking,0,ascites tapping,0,1,3,142,88,111,20,37.6,92,3,Alcoholic liver cirrhosis,3,3,0,437,13,1,Medium
+1,1,59,15,ambulance,0,With chest discomfort,0,1,7,112,85,81,14,36.5,96,4,"Burn of hand, first degree dorsum",2,5,0,214,7,0,Low
+1,1,64,6,car,0,ascites tapping,0,0,3,140,95,116,22,38.3,94,3,Alcoholic liver cirrhosis,2,3,0,590,5,1,Medium
+0,1,60,10,car,1,With chest discomfort,1,1,10,128,77,80,15,36.9,97,4,Alcoholic liver cirrhosis,2,4,0,301,1,0,Low
+0,1,75,1,private_ambulance,0,right ocular pain,1,1,1,126,79,98,12,37.0,99,4,Angina pectoris,1,5,0,270,15,1,Low
+0,0,60,1,private_ambulance,0,"arm pain, Lt",0,1,1,133,87,108,21,38.5,92,3,"Burn of hand, first degree dorsum",3,3,0,197,6,0,Medium
+1,0,54,2,ambulance,0,With chest discomfort,0,0,2,138,87,103,23,38.0,94,3,"Fever, unspecified",3,3,0,314,13,0,Medium
+1,0,29,7,ambulance,1,fever,0,0,2,115,74,81,14,37.0,100,4,Corneal abrasion,2,5,0,378,14,1,Low
+0,1,73,4,ambulance,0,"distension, abd",1,0,4,145,93,114,23,38.0,92,3,Alcoholic liver cirrhosis,2,3,0,222,1,1,Medium
+1,1,65,12,car,1,With chest discomfort,1,0,3,113,73,97,14,37.0,99,5,Angina pectoris,1,4,0,354,4,1,Low
+1,0,72,14,car,0,"arm pain, Lt",0,1,7,134,89,110,23,39.0,94,3,Fracture of surgical neck of humerus,3,3,0,337,7,0,Medium
+1,0,54,12,car,0,"distension, abd",0,1,2,113,78,81,17,37.4,96,4,Corneal abrasion,1,4,0,313,5,0,Low
+1,1,88,2,private_ambulance,0,"arm pain, Lt",1,0,6,78,42,41,40,34.6,88,1,"Burn of hand, first degree dorsum",5,1,0,219,11,0,Critical
+1,0,20,12,ambulance,0,fever,0,1,1,146,89,118,25,38.7,91,3,Alcoholic liver cirrhosis,2,3,0,246,10,1,Medium
+1,1,85,3,private_ambulance,1,"distension, abd",1,1,4,129,73,86,16,37.1,98,4,Ascites,2,4,0,225,12,1,Low
+0,0,41,3,car,0,right forearm burn,0,0,7,134,88,108,20,38.4,91,3,Corneal abrasion,3,3,0,379,4,1,Medium
+1,1,33,7,private_ambulance,1,ascites tapping,0,0,4,122,81,72,15,37.0,97,5,Corneal abrasion,2,4,0,473,8,0,Low
+1,1,25,4,private_ambulance,0,"arm pain, Lt",0,1,5,115,83,60,19,37.3,99,4,Fracture of surgical neck of humerus,2,5,0,259,8,0,Low
+1,1,53,5,ambulance,1,right forearm burn,1,0,1,137,95,115,23,37.8,94,3,"Fever, unspecified",3,3,0,409,9,1,Medium
+1,1,52,1,car,0,right forearm burn,1,1,4,147,94,118,24,38.9,93,3,Fracture of surgical neck of humerus,2,3,0,597,7,1,Medium
+0,0,42,12,walking,1,"arm pain, Lt",1,0,7,129,81,66,18,37.0,96,4,Angina pectoris,1,5,0,374,6,1,Low
+1,1,86,4,private_ambulance,0,fever,0,0,10,134,88,113,20,37.8,93,3,"Fever, unspecified",3,3,0,168,4,0,Medium
+0,1,30,1,private_ambulance,0,"arm pain, Lt",1,0,2,120,77,99,13,36.6,97,4,"Fever, unspecified",2,4,0,313,9,0,Low
+1,0,18,13,private_ambulance,1,right ocular pain,0,0,10,138,85,113,25,38.0,92,3,"Fever, unspecified",2,3,0,129,11,0,Medium
+0,0,42,4,car,0,right forearm burn,0,0,3,139,92,101,25,38.2,94,3,"Fever, unspecified",2,3,0,239,6,1,Medium
+0,0,73,14,ambulance,1,ascites tapping,0,0,6,71,53,42,8,34.7,78,2,Angina pectoris,4,2,0,575,11,0,Critical
+0,1,72,5,walking,1,"distension, abd",0,0,4,178,57,49,8,34.8,71,1,"Burn of hand, first degree dorsum",4,1,0,81,9,0,Critical
+0,1,88,9,car,1,"arm pain, Lt",1,0,3,111,83,91,15,36.6,96,4,Corneal abrasion,2,4,0,462,12,0,Low
+1,0,59,11,walking,1,right ocular pain,0,0,1,130,85,102,22,37.7,94,3,Alcoholic liver cirrhosis,2,3,0,130,8,1,Medium
+0,1,21,6,private_ambulance,0,With chest discomfort,1,1,5,115,72,94,14,37.1,99,5,Ascites,2,5,0,108,3,0,Low
+0,1,54,7,private_ambulance,0,"distension, abd",1,1,1,71,40,142,33,34.8,77,2,Ascites,5,1,0,263,6,1,Critical
+1,0,64,13,private_ambulance,0,"distension, abd",0,1,1,143,88,107,23,38.4,94,3,Angina pectoris,2,3,0,568,3,0,Medium
+0,0,52,14,private_ambulance,1,With chest discomfort,0,0,5,130,78,71,20,37.4,98,4,"Fever, unspecified",2,4,0,222,9,0,Low
+0,0,49,3,private_ambulance,1,fever,0,1,7,119,75,61,15,37.4,100,4,"Burn of hand, first degree dorsum",2,5,0,136,5,1,Low
+1,1,23,11,private_ambulance,0,"arm pain, Lt",1,1,1,115,82,74,17,36.8,100,4,Angina pectoris,1,5,0,53,11,0,Low
+1,1,57,14,walking,0,With chest discomfort,0,0,6,117,75,77,17,37.2,96,5,Corneal abrasion,2,4,0,326,11,0,Low
+0,0,55,15,ambulance,0,With chest discomfort,1,0,9,197,43,42,39,34.8,87,1,Ascites,4,1,0,123,11,0,Critical
+1,1,35,4,car,1,With chest discomfort,0,0,2,129,85,80,18,36.6,99,5,"Burn of hand, first degree dorsum",1,4,0,243,14,0,Low
+0,1,21,13,private_ambulance,0,"distension, abd",0,0,4,181,115,44,10,40.5,81,2,Corneal abrasion,4,1,0,348,10,0,Critical
+1,0,85,9,walking,0,right forearm burn,1,1,6,70,53,42,31,34.4,72,2,"Burn of hand, first degree dorsum",5,1,0,562,9,1,Critical
+1,0,23,13,walking,0,ascites tapping,1,1,7,71,104,40,8,34.5,70,2,Corneal abrasion,5,1,0,358,12,0,Critical
+0,1,40,15,walking,1,right ocular pain,1,0,7,128,73,91,19,36.9,99,4,Fracture of surgical neck of humerus,2,4,0,71,2,0,Low
+0,1,88,13,ambulance,1,"arm pain, Lt",0,1,9,126,74,86,12,36.7,100,5,Corneal abrasion,1,4,0,409,8,0,Low
+1,0,24,13,walking,1,"distension, abd",0,0,8,138,94,105,23,38.6,94,3,Angina pectoris,3,3,0,595,11,1,Medium
+1,0,84,9,walking,1,fever,0,0,6,128,73,78,12,37.3,97,4,Corneal abrasion,1,4,0,219,14,0,Low
+1,1,36,10,car,1,"distension, abd",0,1,3,122,73,89,18,37.5,95,5,Fracture of surgical neck of humerus,1,4,0,263,9,0,Low
+0,0,64,11,car,1,With chest discomfort,0,1,7,113,74,96,18,36.8,99,4,Ascites,2,5,0,180,7,1,Low
+1,1,88,6,private_ambulance,0,With chest discomfort,0,0,9,125,83,66,14,37.3,99,5,Fracture of surgical neck of humerus,1,5,0,226,13,1,Low
+0,1,37,14,walking,0,With chest discomfort,0,0,8,117,70,60,20,36.9,98,5,Corneal abrasion,1,4,0,426,9,0,Low
+1,0,42,1,car,1,"distension, abd",0,1,2,119,72,80,12,37.0,96,4,"Fever, unspecified",2,5,0,177,1,1,Low
+1,0,53,15,private_ambulance,1,ascites tapping,1,1,3,111,84,68,18,37.3,98,4,Corneal abrasion,2,4,0,598,13,0,Low
+1,1,80,15,car,0,"distension, abd",0,1,1,142,93,117,22,37.6,91,3,"Burn of hand, first degree dorsum",3,3,0,121,15,0,Medium
+1,0,58,4,walking,1,right ocular pain,1,0,8,70,43,40,40,40.3,74,2,Alcoholic liver cirrhosis,5,2,0,154,4,0,Critical
+1,1,87,5,car,0,With chest discomfort,1,0,3,122,79,92,12,37.5,95,5,Corneal abrasion,2,5,0,272,8,0,Low
+1,1,31,9,car,0,ascites tapping,1,0,3,132,85,105,25,37.6,93,3,Fracture of surgical neck of humerus,2,3,0,561,15,1,Medium
+1,1,87,13,private_ambulance,0,With chest discomfort,1,0,9,117,73,92,14,37.0,97,5,"Burn of hand, first degree dorsum",2,4,0,490,12,0,Low
+1,1,87,11,car,1,ascites tapping,0,1,8,117,82,93,14,37.4,95,5,Ascites,2,4,0,177,2,0,Low
+1,0,62,2,private_ambulance,1,right ocular pain,1,1,2,118,82,96,14,37.2,99,4,Fracture of surgical neck of humerus,1,4,0,437,8,0,Low
+1,0,86,7,walking,0,right forearm burn,0,0,6,131,94,107,25,38.8,93,3,Fracture of surgical neck of humerus,2,3,0,375,14,0,Medium
+1,1,54,11,private_ambulance,0,fever,1,0,6,135,88,117,23,38.2,93,3,Ascites,2,3,0,492,5,1,Medium
+1,1,26,10,private_ambulance,1,"distension, abd",0,1,9,145,87,104,22,38.3,91,3,"Fever, unspecified",3,3,0,566,1,1,Medium
+1,0,48,12,walking,0,fever,1,1,7,149,90,114,24,37.6,90,3,Angina pectoris,2,3,0,380,14,1,Medium
+1,1,41,10,private_ambulance,0,right forearm burn,1,1,3,130,77,100,14,37.2,100,5,Angina pectoris,1,5,0,229,9,0,Low
+1,0,39,11,walking,0,"distension, abd",1,1,3,120,82,70,14,36.9,99,4,Ascites,2,4,0,408,2,0,Low
+0,1,82,6,walking,0,fever,1,1,7,87,110,138,8,34.5,73,2,Corneal abrasion,4,2,0,233,9,1,Critical
+0,0,52,14,walking,0,ascites tapping,1,0,6,139,92,103,22,38.7,91,3,Fracture of surgical neck of humerus,2,3,0,249,14,1,Medium
+0,0,85,13,private_ambulance,1,With chest discomfort,1,0,1,129,78,69,13,36.8,95,4,Alcoholic liver cirrhosis,1,5,0,422,10,0,Low
+1,0,85,10,ambulance,1,right ocular pain,1,1,3,137,93,116,24,38.8,92,3,Fracture of surgical neck of humerus,2,3,0,600,13,1,Medium
+1,1,59,9,private_ambulance,1,"arm pain, Lt",0,0,8,120,80,77,20,37.1,100,5,Angina pectoris,2,5,0,324,3,0,Low
+0,1,33,6,car,0,With chest discomfort,0,0,1,114,79,83,15,37.1,96,4,"Fever, unspecified",1,4,0,148,13,1,Low
+0,0,26,6,walking,1,right ocular pain,0,1,9,166,109,157,8,40.8,79,2,"Burn of hand, first degree dorsum",4,1,0,405,14,0,Critical
+0,0,54,9,ambulance,0,fever,0,0,4,72,59,50,8,40.3,78,2,"Fever, unspecified",4,1,0,596,8,1,Critical
+1,1,39,9,car,1,right forearm burn,0,1,8,124,80,76,17,37.1,97,5,"Burn of hand, first degree dorsum",2,4,0,63,6,0,Low
+1,1,83,15,ambulance,0,ascites tapping,0,0,8,133,95,115,21,37.6,91,3,Ascites,2,3,0,220,14,0,Medium
+0,0,40,12,private_ambulance,0,right ocular pain,1,1,10,112,79,75,20,37.1,96,4,"Fever, unspecified",2,5,0,280,13,0,Low
+1,1,57,2,private_ambulance,1,fever,1,0,3,122,79,75,12,37.1,97,5,"Burn of hand, first degree dorsum",1,5,0,487,10,1,Low
+1,0,40,3,car,1,right forearm burn,1,1,2,116,85,80,14,37.1,99,4,Corneal abrasion,1,4,0,130,3,1,Low
+0,0,24,1,car,1,With chest discomfort,1,1,9,126,84,82,15,37.2,100,5,"Burn of hand, first degree dorsum",1,5,0,577,7,0,Low
+0,0,23,5,walking,0,ascites tapping,0,1,2,144,86,111,21,38.9,94,3,"Fever, unspecified",2,3,0,201,13,1,Medium
+1,0,29,8,walking,0,right ocular pain,0,0,10,143,92,102,21,38.5,93,3,Alcoholic liver cirrhosis,2,3,0,79,11,0,Medium
+0,0,32,2,private_ambulance,1,ascites tapping,0,0,2,149,95,102,20,37.7,93,3,Corneal abrasion,2,3,0,153,10,0,Medium
+1,0,61,4,ambulance,0,"arm pain, Lt",0,1,7,120,76,94,12,37.2,98,5,Angina pectoris,1,4,0,318,3,0,Low
+1,0,20,15,walking,0,"distension, abd",1,0,3,129,79,84,14,36.5,99,4,"Fever, unspecified",2,5,0,419,14,0,Low
+0,1,18,3,private_ambulance,0,With chest discomfort,0,0,8,169,113,140,9,34.3,74,1,Corneal abrasion,5,1,0,462,2,1,Critical
+0,1,79,5,car,0,"distension, abd",0,1,2,143,91,118,20,38.1,91,3,Fracture of surgical neck of humerus,2,3,0,357,5,0,Medium
+0,1,18,1,ambulance,0,right ocular pain,0,1,7,196,113,124,37,34.6,77,2,"Burn of hand, first degree dorsum",4,2,0,287,8,1,Critical
+0,0,23,13,car,0,right forearm burn,0,1,9,117,73,88,18,36.8,95,5,Ascites,2,4,0,73,9,0,Low
+1,0,64,3,car,0,"arm pain, Lt",0,1,2,136,93,101,23,38.2,91,3,Fracture of surgical neck of humerus,2,3,0,111,1,1,Medium
+1,1,85,5,ambulance,1,right forearm burn,0,0,1,110,83,71,17,37.0,99,5,"Fever, unspecified",2,5,0,469,10,1,Low
+0,0,44,6,ambulance,0,"distension, abd",1,0,8,118,83,85,18,37.3,95,5,Angina pectoris,1,4,0,171,12,1,Low
+1,1,25,7,private_ambulance,0,"arm pain, Lt",1,0,2,113,71,88,19,37.2,95,5,"Fever, unspecified",1,4,0,298,10,0,Low
+0,1,88,10,car,1,right forearm burn,0,1,3,131,89,119,24,38.3,94,3,Angina pectoris,3,3,0,571,8,0,Medium
+1,1,43,11,car,1,ascites tapping,1,0,7,142,86,104,21,38.2,90,3,"Burn of hand, first degree dorsum",3,3,0,268,14,0,Medium
+0,0,73,12,walking,0,"distension, abd",1,0,2,138,87,113,25,37.7,91,3,Angina pectoris,3,3,0,583,14,0,Medium
+0,0,70,11,car,1,right ocular pain,0,0,6,129,84,69,13,36.6,98,4,Angina pectoris,1,5,0,102,9,1,Low
+0,0,56,13,car,1,"arm pain, Lt",0,1,9,81,57,40,35,34.7,76,2,Ascites,5,1,0,442,2,0,Critical
+1,1,83,13,ambulance,1,"distension, abd",0,1,7,88,101,127,40,40.1,87,1,Fracture of surgical neck of humerus,5,1,0,596,9,0,Critical
+1,0,66,13,private_ambulance,1,right forearm burn,1,0,10,123,79,99,18,36.9,96,5,Fracture of surgical neck of humerus,1,5,0,493,9,1,Low
+0,0,74,9,walking,0,ascites tapping,0,0,6,128,77,100,18,36.8,99,4,Fracture of surgical neck of humerus,1,4,0,577,7,0,Low
+0,1,73,7,private_ambulance,0,With chest discomfort,1,0,7,130,94,102,20,37.9,91,3,"Fever, unspecified",3,3,0,197,14,0,Medium
+0,0,31,8,private_ambulance,0,"arm pain, Lt",0,0,1,138,90,117,24,37.6,92,3,Fracture of surgical neck of humerus,3,3,0,339,8,0,Medium
+1,1,30,11,car,0,fever,1,1,1,128,83,85,13,37.0,100,5,"Fever, unspecified",1,4,0,294,10,0,Low
+1,1,18,14,ambulance,0,"arm pain, Lt",0,1,5,143,93,103,21,38.8,94,3,Fracture of surgical neck of humerus,3,3,0,589,7,0,Medium
+1,1,68,15,private_ambulance,1,fever,0,1,6,148,89,110,25,37.6,90,3,Angina pectoris,2,3,0,519,6,0,Medium
+0,1,66,2,car,1,right ocular pain,1,0,4,149,93,117,23,37.8,92,3,Corneal abrasion,2,3,0,557,10,1,Medium
+1,1,25,1,car,0,"distension, abd",1,0,5,126,78,71,12,36.8,98,5,Alcoholic liver cirrhosis,2,5,0,539,7,0,Low
+1,0,73,1,walking,1,ascites tapping,1,1,8,120,70,96,19,37.3,97,5,Angina pectoris,1,4,0,548,13,0,Low
+1,1,49,13,private_ambulance,1,With chest discomfort,0,0,7,120,79,63,13,36.9,97,5,Corneal abrasion,1,4,0,465,3,0,Low
+1,0,37,13,private_ambulance,1,ascites tapping,1,1,7,114,80,99,13,36.9,95,4,"Fever, unspecified",2,4,0,132,2,1,Low
+1,1,82,1,car,0,right ocular pain,1,1,8,85,46,158,9,35.4,83,2,Corneal abrasion,5,1,0,180,12,0,Critical
+0,1,24,4,private_ambulance,1,right forearm burn,1,1,10,82,117,130,9,34.5,86,2,Angina pectoris,5,2,0,304,1,0,Critical
+1,1,72,11,walking,1,fever,1,1,3,136,86,103,21,38.9,91,3,"Fever, unspecified",3,3,0,116,8,1,Medium
+0,0,68,11,walking,0,ascites tapping,0,0,4,194,102,45,37,40.7,80,1,Ascites,5,1,0,265,6,0,Critical
+1,0,47,15,walking,0,right ocular pain,0,0,7,124,85,92,16,37.0,95,5,Fracture of surgical neck of humerus,1,5,0,290,5,1,Low
+0,0,72,14,walking,0,ascites tapping,0,1,9,113,70,80,15,37.1,95,4,Angina pectoris,2,5,0,581,12,1,Low
+1,0,90,15,car,1,"arm pain, Lt",1,0,8,177,108,43,37,35.1,76,1,Ascites,4,2,0,271,4,0,Critical
+1,0,32,7,ambulance,0,right forearm burn,0,0,3,114,73,62,13,36.5,96,4,Corneal abrasion,1,4,0,564,7,1,Low
+0,0,32,9,private_ambulance,1,right ocular pain,0,0,5,116,81,84,13,36.8,100,4,"Fever, unspecified",2,5,0,279,11,0,Low
+1,1,24,7,ambulance,0,"arm pain, Lt",1,1,10,140,95,103,20,37.5,90,3,Corneal abrasion,2,3,0,408,14,1,Medium
+1,0,66,6,car,0,ascites tapping,1,1,7,78,120,45,10,39.5,87,2,Ascites,5,1,0,305,13,1,Critical
+1,0,19,7,private_ambulance,0,"arm pain, Lt",0,1,9,128,82,70,18,37.1,95,4,Alcoholic liver cirrhosis,1,5,0,571,11,1,Low
+1,0,27,6,private_ambulance,0,"arm pain, Lt",1,0,10,144,91,100,25,38.4,91,3,Alcoholic liver cirrhosis,2,3,0,397,8,0,Medium
+0,0,56,13,walking,0,right ocular pain,1,1,6,126,80,67,19,37.0,97,4,Fracture of surgical neck of humerus,2,4,0,424,10,0,Low
+0,1,30,2,private_ambulance,0,ascites tapping,1,0,3,134,94,115,22,38.3,90,3,"Fever, unspecified",3,3,0,405,5,0,Medium
+1,1,88,6,private_ambulance,0,"arm pain, Lt",1,0,1,128,74,68,17,37.0,95,4,"Fever, unspecified",1,4,0,438,4,1,Low
+1,0,24,4,ambulance,1,With chest discomfort,1,0,9,115,80,77,12,36.6,98,4,"Fever, unspecified",2,4,0,493,4,0,Low
+0,1,71,15,walking,0,ascites tapping,0,0,6,127,71,65,13,37.1,95,4,Angina pectoris,1,5,0,118,6,0,Low
+1,0,23,14,private_ambulance,0,With chest discomfort,0,0,1,111,84,64,18,37.1,100,4,Fracture of surgical neck of humerus,2,4,0,118,15,1,Low
+1,0,59,13,ambulance,1,ascites tapping,0,1,6,134,94,108,22,38.9,90,3,Alcoholic liver cirrhosis,2,3,0,237,13,1,Medium
+0,0,28,1,walking,1,right ocular pain,0,1,9,89,102,133,9,40.9,86,1,Ascites,5,2,0,475,1,1,Critical
+0,1,88,15,walking,0,"distension, abd",1,0,6,117,82,100,16,36.9,96,4,Corneal abrasion,2,5,0,486,14,1,Low
+1,1,24,8,walking,1,right ocular pain,1,1,3,76,40,141,28,34.9,89,1,Corneal abrasion,4,1,0,132,8,1,Critical
+0,1,20,13,walking,1,fever,1,0,3,115,70,85,17,37.4,97,5,Corneal abrasion,1,4,0,114,11,0,Low
+1,0,58,1,ambulance,1,With chest discomfort,0,0,6,113,80,73,14,37.4,97,5,Corneal abrasion,2,5,0,478,5,0,Low
+0,1,81,12,ambulance,0,ascites tapping,0,1,10,81,42,46,9,34.3,70,2,Corneal abrasion,4,2,0,249,7,0,Critical
+0,0,54,9,walking,0,right forearm burn,1,0,9,141,90,107,22,38.5,92,3,Alcoholic liver cirrhosis,3,3,0,102,1,0,Medium
+0,0,80,7,private_ambulance,0,right ocular pain,1,1,8,118,71,75,19,37.0,100,4,Ascites,1,4,0,325,5,1,Low
+0,1,20,8,private_ambulance,1,With chest discomfort,0,1,6,70,60,41,33,40.1,73,2,Ascites,4,2,0,92,11,0,Critical
+0,0,37,5,walking,0,right ocular pain,0,0,10,131,95,113,25,37.6,91,3,"Burn of hand, first degree dorsum",3,3,0,44,3,0,Medium
+1,0,68,13,ambulance,0,"arm pain, Lt",1,1,6,128,84,80,14,36.6,99,5,Alcoholic liver cirrhosis,1,5,0,77,4,0,Low
+0,0,40,8,walking,1,"distension, abd",0,0,5,124,84,61,14,36.5,98,4,Angina pectoris,2,4,0,195,4,0,Low
+0,0,73,11,ambulance,0,"arm pain, Lt",0,1,1,121,73,87,13,37.3,99,5,Fracture of surgical neck of humerus,2,4,0,593,9,0,Low
+1,1,58,3,car,1,"distension, abd",0,0,6,137,92,117,25,38.4,91,3,Ascites,2,3,0,521,15,0,Medium
+1,1,53,14,car,0,"distension, abd",0,0,8,75,45,49,10,39.7,72,2,Fracture of surgical neck of humerus,5,2,0,246,12,0,Critical
+0,0,85,7,walking,0,fever,0,0,1,74,41,43,35,34.5,77,2,Angina pectoris,4,1,0,163,9,0,Critical
+1,1,24,7,ambulance,0,fever,0,1,10,117,84,89,19,36.9,99,4,Angina pectoris,1,4,0,102,11,0,Low
+1,0,29,8,walking,1,With chest discomfort,0,0,10,146,88,103,20,37.9,94,3,Alcoholic liver cirrhosis,3,3,0,196,3,0,Medium
+0,1,43,8,car,0,"arm pain, Lt",1,1,7,82,107,125,9,39.9,79,1,Alcoholic liver cirrhosis,5,2,0,231,11,1,Critical
+0,1,42,6,car,1,fever,1,0,8,136,87,105,23,37.7,90,3,Fracture of surgical neck of humerus,2,3,0,251,13,1,Medium
+1,1,61,11,ambulance,0,fever,0,1,10,149,86,119,23,37.7,91,3,Fracture of surgical neck of humerus,3,3,0,255,4,1,Medium
+1,1,35,3,walking,0,"arm pain, Lt",0,0,4,78,47,153,28,39.9,82,2,Angina pectoris,5,2,0,494,7,1,Critical
+0,1,60,4,private_ambulance,1,"distension, abd",1,1,7,142,94,116,23,38.9,90,3,"Burn of hand, first degree dorsum",3,3,0,110,3,1,Medium
+0,1,20,15,walking,0,With chest discomfort,1,0,7,129,74,80,17,37.1,98,5,Corneal abrasion,1,5,0,275,1,1,Low
+0,0,53,6,car,1,right forearm burn,1,0,5,71,105,139,9,40.1,77,1,Ascites,4,1,0,154,8,1,Critical
+0,0,36,6,private_ambulance,0,"distension, abd",1,1,3,183,113,137,29,34.3,86,2,"Burn of hand, first degree dorsum",4,2,0,485,8,1,Critical
+1,1,73,7,ambulance,0,ascites tapping,0,0,5,111,71,100,17,37.3,98,4,Fracture of surgical neck of humerus,2,4,0,561,11,0,Low
+1,0,37,12,ambulance,0,"arm pain, Lt",0,1,8,116,73,87,12,37.1,96,4,Ascites,2,4,0,118,8,0,Low
+0,0,43,7,walking,1,fever,0,1,3,70,120,43,33,35.2,77,1,"Fever, unspecified",4,1,0,483,4,0,Critical
+0,1,40,6,private_ambulance,0,With chest discomfort,1,0,3,187,116,150,28,39.8,73,1,Corneal abrasion,5,1,0,131,1,1,Critical
+0,1,68,11,ambulance,0,fever,0,1,7,118,78,85,19,36.7,98,5,"Burn of hand, first degree dorsum",1,4,0,251,12,0,Low
+0,0,38,13,walking,1,right forearm burn,1,0,3,115,81,85,12,36.9,99,5,"Fever, unspecified",2,4,0,80,15,1,Low
+0,0,79,14,car,0,"arm pain, Lt",1,1,5,113,77,60,19,37.2,96,5,"Burn of hand, first degree dorsum",2,4,0,43,15,0,Low
+0,1,67,11,car,1,fever,1,0,10,125,81,84,13,36.8,97,5,Fracture of surgical neck of humerus,2,4,0,287,10,0,Low
+1,0,26,7,walking,0,right ocular pain,1,1,7,138,85,118,25,37.6,93,3,Ascites,3,3,0,538,6,0,Medium
+0,0,18,5,ambulance,1,right forearm burn,0,0,10,130,85,66,14,37.2,95,4,"Burn of hand, first degree dorsum",1,5,0,279,13,1,Low
+1,1,69,7,car,1,right forearm burn,0,0,7,85,42,148,10,40.0,87,2,Angina pectoris,4,2,0,242,11,1,Critical
+1,1,29,5,ambulance,0,"distension, abd",1,0,4,113,74,62,14,36.6,95,5,Alcoholic liver cirrhosis,2,4,0,417,5,1,Low
+1,1,76,1,car,0,right forearm burn,1,1,7,139,89,117,25,38.6,93,3,Ascites,3,3,0,490,15,1,Medium
+1,0,29,7,walking,1,fever,0,1,6,161,111,43,37,35.5,84,2,"Fever, unspecified",4,1,0,396,3,1,Critical
+0,1,44,10,private_ambulance,0,right forearm burn,1,1,2,115,75,89,18,37.2,98,5,Angina pectoris,1,4,0,351,10,1,Low
+1,1,89,6,walking,1,fever,1,0,5,176,109,41,9,39.9,78,2,Ascites,4,2,0,306,15,1,Critical
+0,0,85,4,car,1,"distension, abd",1,0,10,125,76,96,20,37.1,99,5,"Burn of hand, first degree dorsum",1,4,0,136,1,1,Low
+0,1,40,13,car,1,"arm pain, Lt",1,1,4,119,83,83,17,37.0,99,4,"Burn of hand, first degree dorsum",1,4,0,40,1,1,Low
+1,1,73,15,car,0,fever,0,0,1,114,81,66,14,37.3,96,5,Angina pectoris,2,5,0,394,9,1,Low
+1,0,61,9,private_ambulance,0,"distension, abd",0,0,5,121,79,72,16,37.2,98,5,Corneal abrasion,1,4,0,258,15,1,Low
+1,0,44,4,private_ambulance,0,fever,0,0,4,116,79,89,16,36.7,98,4,Fracture of surgical neck of humerus,1,4,0,267,11,1,Low
+1,0,71,1,walking,0,"distension, abd",1,1,10,131,87,120,20,38.5,93,3,Alcoholic liver cirrhosis,2,3,0,299,4,0,Medium
+0,0,58,4,walking,0,right forearm burn,0,1,7,122,80,71,19,37.3,100,4,"Burn of hand, first degree dorsum",1,4,0,562,3,0,Low
+0,1,20,7,car,0,right forearm burn,0,0,1,117,76,76,18,37.0,95,4,Fracture of surgical neck of humerus,2,5,0,40,8,1,Low
+1,1,79,4,car,0,"arm pain, Lt",1,0,1,112,75,74,20,37.3,98,4,"Burn of hand, first degree dorsum",1,4,0,307,12,0,Low
+1,1,87,2,car,0,ascites tapping,0,0,3,119,71,83,12,36.9,100,5,"Fever, unspecified",2,5,0,134,14,1,Low
+1,1,81,7,car,0,"arm pain, Lt",0,1,6,150,93,107,24,38.8,93,3,Fracture of surgical neck of humerus,2,3,0,547,14,0,Medium
+0,1,58,7,private_ambulance,1,fever,1,0,4,125,77,100,15,37.0,95,4,Corneal abrasion,1,4,0,118,1,0,Low
+0,0,83,12,walking,1,With chest discomfort,0,0,8,131,92,109,25,37.6,91,3,Ascites,2,3,0,287,12,1,Medium
+0,1,58,2,ambulance,0,right forearm burn,1,1,5,117,77,95,19,36.7,95,5,"Burn of hand, first degree dorsum",1,5,0,145,7,0,Low
+1,1,59,14,ambulance,0,fever,0,0,4,119,79,79,19,37.4,95,5,Corneal abrasion,2,5,0,307,8,0,Low
+1,1,19,13,walking,0,"distension, abd",1,0,8,85,52,158,31,40.9,80,1,Ascites,5,1,0,187,1,1,Critical
+1,0,69,3,ambulance,0,fever,1,0,3,128,79,67,13,36.8,98,4,Ascites,1,4,0,355,6,1,Low
+1,0,49,11,private_ambulance,0,With chest discomfort,1,0,1,123,82,64,17,37.2,99,4,"Burn of hand, first degree dorsum",1,5,0,239,12,0,Low
+0,0,86,5,ambulance,0,right ocular pain,0,0,3,113,75,64,17,37.2,99,4,Angina pectoris,1,5,0,475,9,1,Low
+1,0,69,2,car,1,"arm pain, Lt",0,1,5,139,87,100,20,38.7,91,3,"Burn of hand, first degree dorsum",3,3,0,351,9,1,Medium
+1,1,67,14,private_ambulance,1,With chest discomfort,0,1,3,136,89,105,20,38.4,93,3,"Burn of hand, first degree dorsum",2,3,0,217,1,1,Medium
+1,0,23,10,walking,0,With chest discomfort,0,1,8,146,94,103,20,38.2,94,3,Ascites,3,3,0,314,10,0,Medium
+0,0,83,12,car,0,right forearm burn,1,1,7,130,87,100,20,37.5,91,3,Ascites,2,3,0,435,4,0,Medium
+1,0,23,5,ambulance,0,"distension, abd",0,1,9,115,83,99,14,37.2,99,4,Alcoholic liver cirrhosis,2,4,0,576,12,1,Low
+1,0,76,14,ambulance,0,With chest discomfort,0,1,4,116,85,86,13,37.0,100,4,Alcoholic liver cirrhosis,1,5,0,495,2,0,Low
+0,0,57,2,ambulance,0,fever,0,0,4,129,74,66,20,37.3,100,4,Alcoholic liver cirrhosis,1,5,0,94,9,1,Low
+1,1,20,8,private_ambulance,0,fever,0,1,6,128,75,60,20,37.0,100,5,Ascites,1,4,0,160,8,1,Low
+1,0,32,6,private_ambulance,0,"distension, abd",1,1,8,75,112,154,37,39.6,84,1,Fracture of surgical neck of humerus,4,2,0,363,4,1,Critical
+1,1,19,15,ambulance,0,ascites tapping,1,1,3,149,91,113,24,39.0,92,3,Alcoholic liver cirrhosis,3,3,0,52,9,0,Medium
+1,1,76,5,walking,1,ascites tapping,1,0,9,136,94,116,22,37.7,93,3,Ascites,3,3,0,381,4,1,Medium
+0,1,86,5,car,1,"arm pain, Lt",1,0,10,135,95,120,24,38.7,90,3,Angina pectoris,2,3,0,62,3,1,Medium
+0,1,76,7,walking,0,right ocular pain,0,1,9,118,81,93,13,37.3,95,4,Alcoholic liver cirrhosis,2,4,0,342,11,0,Low
+1,0,78,9,walking,1,With chest discomfort,0,0,3,144,90,100,20,37.5,90,3,Corneal abrasion,3,3,0,394,11,0,Medium
+1,1,63,2,walking,0,With chest discomfort,1,1,7,124,71,92,19,37.4,95,4,Alcoholic liver cirrhosis,1,5,0,65,1,0,Low
+1,1,44,15,car,0,right forearm burn,1,1,5,138,87,119,24,38.9,93,3,Alcoholic liver cirrhosis,3,3,0,440,14,1,Medium
+1,0,22,13,ambulance,0,"arm pain, Lt",1,1,8,114,80,87,14,36.7,96,4,"Burn of hand, first degree dorsum",2,4,0,250,15,1,Low
+1,1,21,5,private_ambulance,1,"arm pain, Lt",1,1,6,129,77,98,18,36.8,95,4,Corneal abrasion,2,4,0,530,14,0,Low
+1,1,54,4,car,0,fever,0,0,4,82,102,43,35,34.2,89,2,Ascites,5,2,0,362,3,0,Critical
+0,1,57,3,walking,0,ascites tapping,0,1,8,141,94,102,23,37.6,92,3,Fracture of surgical neck of humerus,3,3,0,124,5,1,Medium
+1,0,52,13,walking,0,"arm pain, Lt",0,1,8,126,79,67,19,36.6,99,5,Fracture of surgical neck of humerus,1,5,0,326,14,0,Low
+1,0,47,4,ambulance,0,"distension, abd",0,1,2,112,76,75,20,37.4,96,5,Ascites,2,4,0,577,15,0,Low
+0,1,89,13,ambulance,1,"distension, abd",1,0,1,195,45,45,39,34.6,80,1,Corneal abrasion,4,2,0,554,10,0,Critical
+0,1,79,5,private_ambulance,1,right ocular pain,1,1,7,115,82,97,13,37.5,96,4,Ascites,1,5,0,293,15,1,Low
+1,1,73,1,car,0,right ocular pain,0,1,8,137,94,100,24,38.9,92,3,Ascites,2,3,0,449,11,1,Medium
+1,1,39,5,walking,1,"distension, abd",1,1,3,183,120,48,10,40.2,87,1,Ascites,5,1,0,583,4,1,Critical
+0,1,77,13,walking,1,"arm pain, Lt",0,1,4,83,56,41,10,40.0,87,1,Ascites,4,1,0,533,14,0,Critical
+0,0,61,12,ambulance,0,ascites tapping,1,0,6,120,74,95,18,37.4,99,4,Corneal abrasion,2,4,0,350,12,0,Low
+0,1,77,4,ambulance,1,right ocular pain,0,0,10,137,94,102,20,37.9,94,3,"Burn of hand, first degree dorsum",3,3,0,352,6,0,Medium
+0,0,72,12,walking,0,With chest discomfort,0,0,5,120,71,68,16,36.7,98,4,Fracture of surgical neck of humerus,1,5,0,573,8,0,Low
+0,1,69,2,ambulance,1,"distension, abd",1,0,4,121,77,99,12,37.2,100,5,Corneal abrasion,2,5,0,405,11,1,Low
+0,1,49,14,private_ambulance,1,right forearm burn,1,0,6,121,73,66,18,36.8,98,4,Alcoholic liver cirrhosis,1,4,0,527,3,1,Low
+1,1,38,7,car,1,right forearm burn,1,0,9,112,82,76,16,36.6,100,5,Corneal abrasion,1,4,0,502,6,0,Low
+1,1,56,1,walking,0,right ocular pain,0,0,3,125,76,60,16,36.6,98,4,Angina pectoris,1,5,0,551,14,0,Low
+1,1,51,2,ambulance,1,With chest discomfort,0,0,10,123,71,86,19,36.9,100,4,Ascites,1,4,0,579,13,1,Low
+1,1,83,14,walking,1,right ocular pain,0,1,9,168,114,121,10,40.6,71,1,Ascites,4,2,0,545,13,0,Critical
+1,1,44,11,walking,0,fever,0,0,7,139,92,114,20,38.7,90,3,Ascites,2,3,0,145,6,0,Medium
+0,0,71,9,ambulance,1,right forearm burn,1,1,3,131,89,102,25,38.8,91,3,Alcoholic liver cirrhosis,3,3,0,502,3,0,Medium
+0,0,53,1,private_ambulance,1,right ocular pain,0,0,5,121,77,95,13,36.6,98,5,"Burn of hand, first degree dorsum",1,4,0,313,9,1,Low
+1,0,89,12,private_ambulance,1,With chest discomfort,1,0,3,115,81,65,19,37.3,96,4,Fracture of surgical neck of humerus,1,5,0,249,3,1,Low
+0,0,86,4,walking,1,"distension, abd",1,0,7,116,71,90,12,36.6,98,5,"Burn of hand, first degree dorsum",1,4,0,65,1,1,Low
+1,1,48,12,ambulance,0,"distension, abd",1,0,7,147,94,100,20,38.0,93,3,Corneal abrasion,2,3,0,536,4,0,Medium
+0,0,90,13,private_ambulance,0,"distension, abd",1,0,4,111,84,70,14,36.6,96,5,Corneal abrasion,2,4,0,429,8,0,Low
+1,1,21,14,walking,1,With chest discomfort,0,1,2,128,75,95,13,37.0,95,5,"Burn of hand, first degree dorsum",2,5,0,446,1,0,Low
+1,0,56,3,walking,0,right ocular pain,1,0,3,80,58,121,39,35.2,82,1,Alcoholic liver cirrhosis,4,1,0,391,6,0,Critical
+1,1,34,2,private_ambulance,1,fever,0,0,5,121,81,97,20,36.9,98,4,Corneal abrasion,1,4,0,143,6,0,Low
+1,1,73,12,private_ambulance,1,ascites tapping,1,1,3,116,84,84,12,37.4,99,5,Fracture of surgical neck of humerus,2,5,0,54,9,0,Low
+0,0,89,10,car,1,"arm pain, Lt",0,0,7,119,71,63,18,37.1,100,4,Angina pectoris,1,5,0,232,13,1,Low
+1,1,53,5,private_ambulance,0,"distension, abd",0,0,4,193,108,42,8,34.3,70,2,"Burn of hand, first degree dorsum",4,2,0,253,1,0,Critical
+1,0,88,13,walking,1,ascites tapping,0,0,10,110,70,93,20,37.1,99,4,Corneal abrasion,2,4,0,445,13,0,Low
+1,0,29,14,ambulance,0,fever,1,0,8,128,84,99,12,36.9,99,5,Angina pectoris,1,5,0,590,7,1,Low
+0,0,67,1,car,1,fever,0,0,7,73,54,125,38,35.0,88,2,"Burn of hand, first degree dorsum",4,1,0,296,13,0,Critical
+1,0,44,5,private_ambulance,1,right ocular pain,1,1,7,128,78,78,16,37.4,98,5,Corneal abrasion,1,4,0,89,9,0,Low
+0,0,20,12,ambulance,0,fever,0,1,10,119,70,69,18,36.6,99,5,Fracture of surgical neck of humerus,2,4,0,362,15,0,Low
+0,1,63,5,ambulance,0,"arm pain, Lt",1,0,1,119,72,70,13,37.5,99,4,Ascites,1,5,0,148,11,1,Low
+1,1,40,10,car,1,fever,1,0,1,71,101,46,8,40.3,72,1,"Burn of hand, first degree dorsum",4,1,0,160,10,1,Critical
+0,0,29,11,walking,1,right ocular pain,1,1,7,120,77,76,16,36.9,95,5,Alcoholic liver cirrhosis,1,4,0,459,4,1,Low
+0,0,21,6,ambulance,0,"arm pain, Lt",1,0,5,125,74,76,15,36.8,98,4,Ascites,2,5,0,203,3,1,Low
+1,0,34,7,private_ambulance,0,"distension, abd",1,1,7,141,91,104,21,37.9,90,3,Ascites,3,3,0,306,13,1,Medium
+0,0,28,11,ambulance,1,right ocular pain,0,1,2,126,79,92,19,37.5,96,4,Angina pectoris,2,4,0,308,13,0,Low
+1,1,57,9,ambulance,0,right forearm burn,0,1,7,118,81,70,17,36.8,96,4,Angina pectoris,2,5,0,319,11,0,Low
+1,0,30,9,car,0,ascites tapping,0,0,7,137,89,107,22,38.5,92,3,Ascites,3,3,0,459,9,0,Medium
+1,0,69,6,car,0,right ocular pain,0,0,3,81,48,43,10,40.6,70,1,Corneal abrasion,4,2,0,547,7,0,Critical
+0,0,43,12,ambulance,0,"distension, abd",1,0,2,72,106,47,40,40.4,87,2,"Fever, unspecified",4,1,0,427,15,0,Critical
+0,1,63,2,walking,1,With chest discomfort,1,1,1,150,86,102,21,38.9,92,3,"Fever, unspecified",2,3,0,152,1,1,Medium
+1,0,89,8,ambulance,1,"distension, abd",0,0,8,73,53,49,31,34.4,87,1,Angina pectoris,5,2,0,262,1,1,Critical
+0,0,89,3,walking,0,fever,1,1,8,86,120,50,31,35.4,82,1,Ascites,5,2,0,390,14,1,Critical
+0,1,78,13,private_ambulance,1,right ocular pain,1,0,4,128,81,69,13,36.8,100,4,Angina pectoris,2,5,0,178,7,0,Low
+0,0,19,6,car,1,With chest discomfort,0,1,4,113,77,96,14,36.8,97,4,Corneal abrasion,1,4,0,338,15,0,Low
+0,1,27,14,ambulance,0,right forearm burn,0,1,2,142,92,111,25,38.3,93,3,"Burn of hand, first degree dorsum",2,3,0,367,4,1,Medium
+0,1,29,1,car,1,ascites tapping,1,1,3,145,93,118,23,38.8,90,3,Ascites,2,3,0,375,6,0,Medium
+1,1,27,6,car,0,right forearm burn,1,1,9,113,80,83,16,36.7,100,4,"Burn of hand, first degree dorsum",1,5,0,422,1,0,Low
+1,1,55,13,walking,1,With chest discomfort,1,1,3,111,81,64,19,36.6,98,4,Corneal abrasion,2,4,0,400,7,1,Low
+0,1,79,11,car,0,right ocular pain,1,1,5,137,93,100,21,38.8,92,3,"Fever, unspecified",3,3,0,500,11,0,Medium
+0,1,38,5,private_ambulance,1,right forearm burn,1,0,9,126,79,62,19,36.9,97,4,"Fever, unspecified",2,4,0,416,11,0,Low
+0,1,26,4,private_ambulance,1,ascites tapping,0,1,10,114,76,93,18,37.2,98,4,Angina pectoris,1,5,0,299,9,1,Low
+0,0,47,12,walking,1,With chest discomfort,0,1,1,141,85,116,24,38.7,93,3,Fracture of surgical neck of humerus,2,3,0,490,7,1,Medium
+0,1,58,7,private_ambulance,0,fever,1,1,8,140,90,108,21,38.2,90,3,"Burn of hand, first degree dorsum",3,3,0,215,8,0,Medium
+1,0,34,3,car,0,right forearm burn,0,1,2,164,120,46,29,34.2,89,2,Fracture of surgical neck of humerus,5,1,0,595,7,0,Critical
+0,1,40,10,car,0,"distension, abd",0,0,1,115,83,96,20,36.5,97,4,Alcoholic liver cirrhosis,2,5,0,109,1,1,Low
+1,1,27,15,car,0,With chest discomfort,0,1,4,144,85,110,25,37.5,90,3,"Burn of hand, first degree dorsum",2,3,0,453,14,1,Medium
+1,0,53,14,car,1,right forearm burn,1,1,7,117,70,94,15,37.5,95,5,Corneal abrasion,2,5,0,190,15,1,Low
+1,0,88,12,ambulance,0,right forearm burn,1,0,8,135,93,102,21,38.8,90,3,"Fever, unspecified",3,3,0,78,5,1,Medium
+1,1,73,7,walking,0,ascites tapping,0,1,6,116,85,76,17,36.5,100,4,Angina pectoris,2,5,0,32,7,1,Low
+0,0,70,1,car,0,"distension, abd",0,0,3,164,49,44,10,35.3,77,1,"Burn of hand, first degree dorsum",4,1,0,280,6,0,Critical
+1,1,65,14,car,0,"distension, abd",0,1,5,120,71,74,18,37.1,99,5,Angina pectoris,1,4,0,281,4,0,Low
+1,0,49,10,private_ambulance,0,right ocular pain,0,1,10,127,77,67,14,37.3,97,5,Ascites,1,4,0,88,8,1,Low
+1,0,68,1,car,0,right forearm burn,1,1,4,132,92,114,22,38.4,92,3,Alcoholic liver cirrhosis,2,3,0,216,10,1,Medium
+0,1,90,6,car,0,right forearm burn,1,1,2,137,86,115,22,37.8,93,3,Alcoholic liver cirrhosis,3,3,0,356,3,1,Medium
+0,0,31,15,private_ambulance,0,ascites tapping,0,0,1,128,75,94,16,36.8,96,5,"Burn of hand, first degree dorsum",1,4,0,138,2,1,Low
+1,0,60,6,car,1,right forearm burn,0,0,10,150,86,109,21,38.5,90,3,"Fever, unspecified",3,3,0,173,5,1,Medium
+1,1,34,14,ambulance,0,right ocular pain,0,1,6,147,86,118,21,38.6,90,3,Corneal abrasion,3,3,0,471,8,1,Medium
+0,0,43,13,ambulance,1,"arm pain, Lt",0,1,10,170,117,46,33,35.1,80,2,Alcoholic liver cirrhosis,4,2,0,206,1,1,Critical
+0,1,34,5,ambulance,1,fever,1,0,10,122,75,95,14,36.7,97,4,Fracture of surgical neck of humerus,1,4,0,445,3,1,Low
+1,0,88,10,walking,0,fever,0,0,3,115,77,77,13,36.8,99,4,Ascites,1,4,0,457,7,0,Low
+0,0,74,7,private_ambulance,0,"arm pain, Lt",1,0,10,81,102,44,10,34.1,77,2,"Burn of hand, first degree dorsum",4,1,0,194,5,1,Critical
+1,0,46,12,car,1,right ocular pain,0,1,8,111,80,85,16,36.9,100,5,Alcoholic liver cirrhosis,2,4,0,162,7,1,Low
+1,0,85,1,walking,0,ascites tapping,0,0,5,123,72,88,18,37.2,96,4,Angina pectoris,1,4,0,450,2,0,Low
+1,0,51,7,walking,0,right forearm burn,0,1,6,138,89,103,25,37.8,91,3,Ascites,3,3,0,400,8,1,Medium
+1,0,22,13,walking,1,right forearm burn,0,1,7,190,103,125,10,34.3,75,2,Fracture of surgical neck of humerus,5,1,0,303,13,1,Critical
+0,0,81,5,walking,1,With chest discomfort,1,0,9,122,78,88,12,36.7,97,5,Angina pectoris,2,4,0,170,7,0,Low
+0,0,77,9,private_ambulance,1,right ocular pain,0,0,10,120,77,92,17,37.1,97,5,Corneal abrasion,1,5,0,430,12,1,Low
+0,0,20,8,car,1,fever,1,0,5,125,83,66,16,36.7,99,5,Alcoholic liver cirrhosis,1,5,0,82,7,1,Low
+1,1,75,5,private_ambulance,1,right forearm burn,1,0,7,127,72,83,16,37.4,95,5,"Burn of hand, first degree dorsum",1,4,0,493,8,0,Low
+0,1,32,6,car,1,fever,1,0,5,137,90,113,23,37.5,90,3,Fracture of surgical neck of humerus,3,3,0,465,10,0,Medium
+1,1,68,11,ambulance,0,With chest discomfort,1,1,2,127,74,71,14,36.9,98,5,Angina pectoris,1,4,0,554,8,1,Low
+1,0,82,7,private_ambulance,0,"distension, abd",1,0,5,115,85,85,12,37.2,97,5,Ascites,2,4,0,171,3,0,Low
+1,1,25,13,car,1,fever,1,0,7,142,88,105,20,38.6,93,3,"Burn of hand, first degree dorsum",3,3,0,211,13,0,Medium
+0,1,90,2,ambulance,1,fever,1,0,4,144,86,114,25,38.9,90,3,"Burn of hand, first degree dorsum",3,3,0,444,10,1,Medium
+0,0,44,11,ambulance,1,"arm pain, Lt",0,0,5,121,83,88,12,37.5,99,4,Angina pectoris,2,4,0,581,8,0,Low
+0,1,51,4,walking,0,With chest discomfort,0,0,2,124,73,86,19,37.0,95,5,"Fever, unspecified",2,5,0,257,11,0,Low
+0,0,85,7,walking,0,With chest discomfort,0,1,1,116,84,62,13,37.0,99,4,Corneal abrasion,2,5,0,486,15,0,Low
+0,0,83,8,ambulance,1,right forearm burn,0,1,9,115,79,79,20,36.8,95,4,Ascites,1,5,0,549,11,1,Low
+1,1,41,2,car,1,"distension, abd",0,1,10,198,105,46,8,34.8,89,1,"Fever, unspecified",4,2,0,209,15,1,Critical
+1,1,51,4,walking,1,fever,0,1,6,126,85,60,13,36.7,100,5,"Burn of hand, first degree dorsum",2,4,0,412,4,1,Low
+0,0,29,8,walking,0,right ocular pain,0,1,10,144,91,101,21,38.4,93,3,"Burn of hand, first degree dorsum",3,3,0,414,6,0,Medium
+0,1,57,6,ambulance,1,"arm pain, Lt",0,1,6,78,52,142,31,40.6,74,1,Alcoholic liver cirrhosis,4,1,0,69,7,1,Critical
+1,1,85,10,car,0,"arm pain, Lt",1,1,3,163,119,130,10,34.0,84,2,Fracture of surgical neck of humerus,4,1,0,416,10,0,Critical
+0,0,88,6,private_ambulance,1,"distension, abd",1,1,8,149,87,111,23,37.5,90,3,Corneal abrasion,2,3,0,565,14,1,Medium
+0,1,49,4,ambulance,0,right forearm burn,0,1,1,70,49,149,8,35.4,71,2,Fracture of surgical neck of humerus,4,1,0,151,1,0,Critical
+1,0,81,15,private_ambulance,0,right ocular pain,1,1,7,139,87,104,22,38.9,92,3,"Burn of hand, first degree dorsum",2,3,0,374,14,0,Medium
+1,1,80,10,car,1,"distension, abd",1,0,10,127,71,83,18,37.0,95,4,"Burn of hand, first degree dorsum",2,5,0,32,8,1,Low
+1,1,85,8,ambulance,1,With chest discomfort,0,1,4,119,85,76,13,37.2,97,4,Alcoholic liver cirrhosis,1,4,0,353,14,1,Low
+1,1,24,8,ambulance,0,right ocular pain,1,1,1,117,83,65,14,37.5,96,5,Ascites,1,4,0,525,4,0,Low
+1,0,42,13,walking,1,"arm pain, Lt",1,1,9,129,70,77,19,36.9,98,5,Fracture of surgical neck of humerus,1,4,0,97,15,0,Low
+1,1,78,2,car,1,fever,0,1,2,145,88,105,24,38.4,90,3,"Burn of hand, first degree dorsum",3,3,0,291,1,0,Medium
+0,1,63,6,car,0,"arm pain, Lt",1,1,5,149,91,111,21,38.4,90,3,Angina pectoris,3,3,0,514,1,0,Medium
+0,1,49,6,walking,0,"distension, abd",1,0,4,129,74,71,13,37.3,95,4,Angina pectoris,2,5,0,194,13,0,Low
+1,1,65,11,car,1,"distension, abd",0,0,7,120,75,98,17,36.6,98,5,Angina pectoris,1,5,0,238,12,0,Low
+0,0,71,1,ambulance,1,"arm pain, Lt",1,0,9,126,71,87,19,36.5,100,5,Corneal abrasion,1,4,0,150,10,0,Low
+0,0,54,2,ambulance,0,With chest discomfort,1,1,2,133,90,117,22,38.3,94,3,Angina pectoris,2,3,0,438,4,0,Medium
+1,0,32,5,private_ambulance,0,right forearm burn,0,1,4,149,92,100,23,38.2,92,3,Alcoholic liver cirrhosis,3,3,0,88,14,0,Medium
+0,1,43,13,car,1,ascites tapping,0,1,4,177,112,42,33,35.4,74,2,Corneal abrasion,5,1,0,162,6,1,Critical
+0,0,75,15,private_ambulance,1,right ocular pain,1,0,7,162,107,40,8,35.0,89,1,Ascites,4,1,0,74,10,0,Critical
+0,0,25,3,walking,0,right ocular pain,1,1,3,189,114,43,9,34.9,74,2,Fracture of surgical neck of humerus,5,2,0,359,5,1,Critical
+0,1,35,5,walking,1,"arm pain, Lt",0,0,2,87,119,160,31,40.8,82,2,Ascites,4,1,0,409,3,0,Critical
+0,1,81,12,private_ambulance,1,right ocular pain,0,1,2,123,74,79,20,36.9,98,4,Angina pectoris,2,5,0,187,13,1,Low
+0,0,69,4,walking,0,"arm pain, Lt",1,0,2,81,42,50,9,39.6,88,1,"Burn of hand, first degree dorsum",4,2,0,291,5,0,Critical
+1,1,59,10,walking,0,fever,1,1,6,116,73,80,19,37.1,97,5,Angina pectoris,1,4,0,567,11,1,Low
+1,0,56,7,walking,1,right ocular pain,0,0,6,129,85,76,20,37.0,99,4,Corneal abrasion,2,5,0,220,4,1,Low
+1,0,29,14,car,0,"distension, abd",0,0,1,183,55,129,8,41.0,79,2,Angina pectoris,4,1,0,166,6,0,Critical
+1,1,68,10,ambulance,1,right forearm burn,1,1,4,149,87,107,25,38.3,92,3,"Burn of hand, first degree dorsum",2,3,0,216,1,0,Medium
+0,1,18,10,ambulance,0,With chest discomfort,0,1,5,114,76,79,19,37.2,99,4,Fracture of surgical neck of humerus,2,4,0,358,14,0,Low
+1,0,52,15,private_ambulance,0,ascites tapping,1,1,10,129,72,72,20,37.5,95,4,Angina pectoris,2,4,0,321,4,0,Low
+1,0,41,15,ambulance,1,ascites tapping,1,1,4,136,86,113,25,38.3,90,3,"Fever, unspecified",3,3,0,519,1,1,Medium
+1,0,89,4,private_ambulance,0,"arm pain, Lt",1,0,10,126,79,68,16,36.6,95,5,"Burn of hand, first degree dorsum",1,5,0,537,5,0,Low
+1,1,73,9,ambulance,1,ascites tapping,1,0,6,148,85,113,21,37.5,90,3,Angina pectoris,2,3,0,550,11,1,Medium
+1,1,69,12,car,1,"distension, abd",1,1,6,149,92,120,24,37.8,94,3,Angina pectoris,3,3,0,109,5,1,Medium
+1,0,58,14,walking,0,right forearm burn,1,1,5,116,74,68,15,37.5,97,5,Corneal abrasion,1,4,0,190,12,0,Low
+1,1,31,9,walking,0,"arm pain, Lt",0,0,2,135,95,114,23,38.6,91,3,Alcoholic liver cirrhosis,3,3,0,337,3,0,Medium
+1,0,77,14,ambulance,0,right forearm burn,1,1,1,120,79,64,18,37.0,98,4,Ascites,2,4,0,408,7,1,Low
+1,1,86,1,walking,1,fever,1,1,10,122,76,94,15,37.5,99,5,Alcoholic liver cirrhosis,1,4,0,152,1,0,Low
+1,0,36,7,private_ambulance,0,right ocular pain,0,1,6,141,90,114,25,38.3,92,3,Fracture of surgical neck of humerus,3,3,0,365,13,1,Medium
+0,0,63,5,private_ambulance,1,"arm pain, Lt",0,0,1,193,116,128,28,40.1,80,1,Fracture of surgical neck of humerus,4,1,0,339,5,0,Critical
+1,0,78,3,ambulance,0,"distension, abd",1,1,1,146,88,110,23,38.8,90,3,Alcoholic liver cirrhosis,2,3,0,228,1,1,Medium
+0,0,52,9,private_ambulance,0,right forearm burn,0,1,1,87,119,133,10,34.9,89,2,"Burn of hand, first degree dorsum",5,2,0,309,6,0,Critical
+0,1,32,7,walking,0,"arm pain, Lt",1,0,8,136,90,112,25,38.2,94,3,"Fever, unspecified",3,3,0,258,10,1,Medium
+0,0,61,11,private_ambulance,0,right forearm burn,1,1,3,150,85,107,20,38.0,94,3,Ascites,3,3,0,47,8,0,Medium
+0,0,37,2,private_ambulance,1,ascites tapping,1,1,8,199,43,147,10,34.3,89,2,Corneal abrasion,5,2,0,460,3,0,Critical
+0,1,46,1,walking,1,fever,1,0,8,143,92,109,24,37.8,93,3,Alcoholic liver cirrhosis,3,3,0,216,14,0,Medium
+1,0,29,13,car,1,"distension, abd",0,1,3,142,90,110,24,38.0,94,3,"Burn of hand, first degree dorsum",2,3,0,166,8,0,Medium
+0,1,78,10,car,0,right forearm burn,0,1,10,111,71,87,17,37.3,100,5,Angina pectoris,2,4,0,507,8,1,Low
+1,1,27,8,walking,1,right forearm burn,0,0,8,136,92,116,20,38.0,90,3,Ascites,2,3,0,339,6,1,Medium
+0,1,88,9,private_ambulance,1,right forearm burn,0,0,1,125,82,65,14,36.7,98,4,"Fever, unspecified",1,4,0,58,11,1,Low
+0,0,88,15,private_ambulance,0,"distension, abd",0,0,8,130,91,112,25,38.6,94,3,Alcoholic liver cirrhosis,2,3,0,165,4,1,Medium
+0,1,89,9,ambulance,0,"arm pain, Lt",1,1,10,144,85,107,25,38.0,93,3,Ascites,3,3,0,453,14,0,Medium
+1,1,42,12,private_ambulance,0,With chest discomfort,1,1,4,73,110,45,40,40.9,74,1,Ascites,4,2,0,310,12,1,Critical
+1,0,57,2,car,1,right ocular pain,1,1,1,130,73,69,15,37.5,97,4,Ascites,2,4,0,484,2,1,Low
+0,0,68,10,private_ambulance,1,"distension, abd",1,0,3,137,95,109,25,37.9,93,3,Alcoholic liver cirrhosis,3,3,0,330,1,0,Medium
+1,1,72,14,car,0,ascites tapping,0,0,10,80,55,142,9,34.9,84,1,Ascites,5,1,0,243,12,0,Critical
+1,1,29,15,walking,0,With chest discomfort,0,0,3,119,72,84,17,36.6,97,5,Angina pectoris,2,4,0,428,1,1,Low
+1,1,56,14,private_ambulance,1,ascites tapping,0,0,6,196,57,151,10,40.2,70,1,Ascites,4,1,0,126,7,0,Critical
+0,0,54,13,walking,1,fever,1,1,1,148,89,117,21,38.5,93,3,Ascites,2,3,0,158,9,1,Medium
+0,0,48,13,ambulance,1,With chest discomfort,1,0,10,130,82,71,13,37.1,96,5,Alcoholic liver cirrhosis,2,5,0,156,10,1,Low
+1,0,70,1,ambulance,1,fever,1,0,5,75,44,44,31,40.3,85,2,Alcoholic liver cirrhosis,4,1,0,493,10,0,Critical
+1,1,56,2,walking,1,right ocular pain,0,0,4,121,72,89,16,37.4,97,5,Angina pectoris,1,5,0,415,14,0,Low
+0,1,67,13,ambulance,1,right forearm burn,0,1,7,129,80,82,14,37.1,98,5,Angina pectoris,2,5,0,124,5,0,Low
+1,0,88,3,walking,1,right ocular pain,0,1,5,118,82,90,14,36.7,99,4,Alcoholic liver cirrhosis,2,4,0,276,4,0,Low
+1,1,64,12,car,1,fever,1,1,10,116,74,82,13,36.6,100,5,"Burn of hand, first degree dorsum",2,5,0,95,3,0,Low
+1,0,59,8,private_ambulance,1,ascites tapping,0,0,1,126,81,92,12,36.6,100,5,Fracture of surgical neck of humerus,1,4,0,241,10,0,Low
+1,0,26,7,private_ambulance,1,right forearm burn,0,0,8,127,72,95,19,36.6,99,5,Fracture of surgical neck of humerus,2,5,0,161,6,1,Low
+0,0,70,14,private_ambulance,0,right forearm burn,0,1,5,75,52,42,36,41.0,70,2,Fracture of surgical neck of humerus,4,1,0,127,2,1,Critical
+1,1,21,8,car,0,"arm pain, Lt",0,1,6,148,94,104,20,37.6,93,3,Angina pectoris,2,3,0,561,3,0,Medium
+1,0,35,1,walking,0,With chest discomfort,0,0,3,111,81,84,14,37.2,95,4,Angina pectoris,1,4,0,242,5,1,Low
+0,0,30,11,ambulance,1,right forearm burn,1,0,4,115,77,98,16,36.8,98,5,"Burn of hand, first degree dorsum",1,5,0,341,3,1,Low
+1,1,56,13,car,0,"arm pain, Lt",1,1,4,118,75,63,17,36.7,98,5,"Fever, unspecified",2,4,0,593,11,1,Low
+0,1,78,7,car,1,fever,0,1,7,121,80,96,13,36.8,98,4,Angina pectoris,1,5,0,553,1,1,Low
+1,1,31,13,walking,0,right forearm burn,1,1,3,119,84,77,18,36.9,97,4,Ascites,1,5,0,447,3,1,Low

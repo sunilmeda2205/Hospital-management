@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="glass-panel" style="max-width: 600px; margin: 0 auto; text-align: center;">
+    <h2>MODULE TRAIN</h2>
+    <p style="font-size: 1.5rem; margin-bottom: 20px;">🤖 Choose Algorithm</p>
+    <form method="POST" action="{{ url_for('module_train') }}" style="display: flex; flex-direction: column; gap: 20px;">
+        <select name="algorithm" style="display: block; width: 100%; padding: 12px; font-family: 'Outfit', sans-serif; font-size: 1.1rem; border-radius: 8px; border: 1px solid #ccc; background: rgba(255,255,255,0.8);">
+            <option value="Random_Forest">Random Forest Classifier</option>
+            <option value="Decision_Tree">Decision Tree Classifier</option>
+            <option value="SVM">Support Vector Machine (SVM)</option>
+            <option value="Logistic_Regression">Logistic Regression</option>
+        </select>
+        <button type="submit" class="btn-submit" style="width: 100%;">Submit</button>
+    </form>
+</div>
+{% endblock %}

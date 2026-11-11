@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="glass-panel" style="text-align: center; margin-top: 50px;">
+    <h2 class="section-title">Welcome back, {{ user }}!</h2>
+    <p style="font-size: 1.2rem; margin-bottom: 30px;">Access the ML-driven intelligent emergency hospital management system.</p>
+    
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+        <a href="{{ url_for('prediction') }}" style="text-decoration: none;">
+            <div style="background: rgba(255,255,255,0.8); padding: 30px; border-radius: 12px; width: 250px; color: #000; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-left: 5px solid #000;">
+                <h3 style="margin-top: 0;">New Patient Prediction</h3>
+                <p>Input vitals and details to predict hospital admission priority.</p>
+            </div>
+        </a>
+        <a href="{{ url_for('check_bed') }}" style="text-decoration: none;">
+            <div style="background: rgba(255,255,255,0.8); padding: 30px; border-radius: 12px; width: 250px; color: #000; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-left: 5px solid #2c98f0;">
+                <h3 style="margin-top: 0;">Check Bed Availability</h3>
+                <p>View real-time status of hospital beds.</p>
+            </div>
+        </a>
+        <a href="{{ url_for('load_data') }}" style="text-decoration: none;">
+            <div style="background: rgba(255,255,255,0.8); padding: 30px; border-radius: 12px; width: 250px; color: #000; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-left: 5px solid #28a745;">
+                <h3 style="margin-top: 0;">Load Patient Reports</h3>
+                <p>Upload CSV data files of pre-injury reports.</p>
+            </div>
+        </a>
+    </div>
+</div>
+{% endblock %}

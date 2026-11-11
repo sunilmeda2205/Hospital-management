@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="section-title" style="color: #fff; margin-bottom: 5px;">CHECK THE BEd AVAILABILITY</h2>
+<p style="color: #fff; margin-bottom: 20px;">Real-time tracker for local hospital bed status.</p>
+
+<div class="glass-panel" style="margin-bottom: 20px; background: rgba(255,255,255,0.7); color: #000;">
+    <h3>Nearby Available Hospitals (India)</h3>
+    <ul style="list-style-type: square; padding-left: 20px;">
+        <li><strong>City General Hospital:</strong> Floor 1 (Beds 1-30)</li>
+        <li><strong>St. Mary's Medical Center:</strong> Floor 2 (Beds 31-60)</li>
+        <li><strong>Sunrise Community Hospital:</strong> Floor 3 (Beds 61-81)</li>
+    </ul>
+</div>
+
+<h3 style="color: #fff; margin-top: 30px;">City General Hospital (Floor 1)</h3>
+<div class="bed-grid" style="gap: 10px; margin-bottom: 20px;">
+    {% for bed in beds if bed.floor == 1 %}
+    <div class="bed-box {{ 'filled' if bed.filled else 'available' }}" style="width: 80px; height: 90px; border-radius: 8px; padding: 2px; text-align: center; overflow: hidden; {% if bed.filled %}background: #ffcccc; border-color: red;{% else %}background: #d4edda; border-color: green;{% endif %}">
+        <strong>Bed {{ bed.id }}</strong><br/>
+        <span style="font-size: 0.75rem; font-weight: bold; color: {% if bed.filled %}#900{% else %}#060{% endif %};">{{ bed.status }}</span>
+        {% if bed.filled and bed.patient_name %}
+        <div style="font-size: 0.65rem; margin-top: 2px; color: #333; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Allocated to: {{ bed.patient_name }}">
+            {{ bed.patient_name }}
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+<h3 style="color: #fff; margin-top: 30px;">St. Mary's Medical Center (Floor 2)</h3>
+<div class="bed-grid" style="gap: 10px; margin-bottom: 20px;">
+    {% for bed in beds if bed.floor == 2 %}
+    <div class="bed-box {{ 'filled' if bed.filled else 'available' }}" style="width: 80px; height: 90px; border-radius: 8px; padding: 2px; text-align: center; overflow: hidden; {% if bed.filled %}background: #ffcccc; border-color: red;{% else %}background: #d4edda; border-color: green;{% endif %}">
+        <strong>Bed {{ bed.id }}</strong><br/>
+        <span style="font-size: 0.75rem; font-weight: bold; color: {% if bed.filled %}#900{% else %}#060{% endif %};">{{ bed.status }}</span>
+        {% if bed.filled and bed.patient_name %}
+        <div style="font-size: 0.65rem; margin-top: 2px; color: #333; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Allocated to: {{ bed.patient_name }}">
+            {{ bed.patient_name }}
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+<h3 style="color: #fff; margin-top: 30px;">Sunrise Community Hospital (Floor 3)</h3>
+<div class="bed-grid" style="gap: 10px; margin-bottom: 20px;">
+    {% for bed in beds if bed.floor == 3 %}
+    <div class="bed-box {{ 'filled' if bed.filled else 'available' }}" style="width: 80px; height: 90px; border-radius: 8px; padding: 2px; text-align: center; overflow: hidden; {% if bed.filled %}background: #ffcccc; border-color: red;{% else %}background: #d4edda; border-color: green;{% endif %}">
+        <strong>Bed {{ bed.id }}</strong><br/>
+        <span style="font-size: 0.75rem; font-weight: bold; color: {% if bed.filled %}#900{% else %}#060{% endif %};">{{ bed.status }}</span>
+        {% if bed.filled and bed.patient_name %}
+        <div style="font-size: 0.65rem; margin-top: 2px; color: #333; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Allocated to: {{ bed.patient_name }}">
+            {{ bed.patient_name }}
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

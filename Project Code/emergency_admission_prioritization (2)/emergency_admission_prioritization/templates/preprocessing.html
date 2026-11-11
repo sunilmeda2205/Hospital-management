@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="glass-panel" style="max-width: 800px; margin: 50px auto; text-align: center;">
+    <h2 class="section-title">Data Preprocessing</h2>
+    <p style="margin-bottom: 20px;">Clean the uploaded data, handle missing values, and prepare it for ML training.</p>
+    
+    <div style="background: rgba(255,255,255,0.5); padding: 30px; border-radius: 12px; margin-bottom: 20px;">
+        <ul style="text-align: left; list-style-type: none; padding: 0;">
+            <li>✅ Check for NaN / missing values</li>
+            <li>✅ One-Hot Encoding for categorical variables</li>
+            <li>✅ Standard Scaling for numeric data</li>
+            <li>✅ Target balancing</li>
+        </ul>
+    </div>
+    
+    <form method="POST" action="{{ url_for('preprocessing') }}">
+        <button type="submit" class="btn-submit" style="width: 250px;">Run Preprocessing Pipeline</button>
+    </form>
+</div>
+{% endblock %}

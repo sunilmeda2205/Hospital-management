@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Priority System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="top-header">
+        <h1 class="main-title">Hospital</h1>
+    </div>
+    
+    <nav class="navbar">
+        {% if not session.get('user') %}
+            <a href="{{ url_for('index') }}" class="{{ 'active' if request.endpoint == 'index' else '' }}">Home</a>
+            <a href="{{ url_for('login') }}" class="{{ 'active' if request.endpoint in ['login', 'register'] else '' }}">Login and Registration</a>
+        {% else %}
+            <a href="{{ url_for('home') }}" class="{{ 'active' if request.endpoint == 'home' else '' }}">UserHome</a>
+            <a href="{{ url_for('load_data') }}" class="{{ 'active' if request.endpoint == 'load_data' else '' }}">Load Data</a>
+            <a href="{{ url_for('view_data') }}" class="{{ 'active' if request.endpoint == 'view_data' else '' }}">View Data</a>
+            <a href="{{ url_for('preprocessing') }}" class="{{ 'active' if request.endpoint == 'preprocessing' else '' }}">Preprocessing</a>
+            <a href="{{ url_for('module_train') }}" class="{{ 'active' if request.endpoint == 'module_train' else '' }}">Module Train</a>
+            <a href="{{ url_for('prediction') }}" class="{{ 'active' if request.endpoint == 'prediction' else '' }}">prediction</a>
+            <a href="{{ url_for('check_bed') }}" class="{{ 'active' if request.endpoint == 'check_bed' else '' }}">Check bed</a>
+            <a href="{{ url_for('logout') }}" style="margin-left: auto;">LOGOUT</a>
+        {% endif %}
+    </nav>
+        
+        <main class="content">
+            <div class="flash-messages">
+                {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                    {% for message in messages %}
+                      <div class="alert">{{ message }}</div>
+                    {% endfor %}
+                  {% endif %}
+                {% endwith %}
+            </div>
+            
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+</body>
+</html>

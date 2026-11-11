@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="section-title" style="color: #fff;">Patient Records</h2>
+
+{% if data %}
+<div class="glass-panel" style="padding: 0; overflow: hidden;">
+    <div class="data-table-container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    {% for key in data[0].keys() %}
+                    <th>{{ key }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data[:100] %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    {% for key, value in row.items() %}
+                    <td>{{ value }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% if data|length > 100 %}
+    <p style="padding: 10px; text-align: center; color: #555;">Showing top 100 of {{ data|length }} records.</p>
+    {% endif %}
+</div>
+{% else %}
+<div class="glass-panel" style="text-align: center;">
+    <p>No data loaded. Please go to <a href="{{ url_for('load_data') }}">Load Data</a> to upload a file.</p>
+</div>
+{% endif %}
+{% endblock %}
